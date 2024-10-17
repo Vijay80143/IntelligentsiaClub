@@ -1,0 +1,38 @@
+/* Fullscreen video container */
+.video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw; /* Use viewport width for consistency */
+    height: 100vh; /* Full height of the viewport */
+    background-color: black;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; /* Prevents any scrolling */
+}
+
+/* Video fills the entire screen while maintaining aspect ratio */
+.video-container video {
+    min-width: 100%; /* Ensure the video is at least the full width */
+    min-height: 100%; /* Ensure the video is at least the full height */
+    width: auto; /* Allow the width to adjust automatically */
+    height: auto; /* Allow the height to adjust automatically */
+    object-fit: cover; /* Ensures the video covers the entire screen */
+    object-position: center; /* Centers the video */
+}
+
+@keyframes wipe-in-down {
+    from {
+        clip-path: inset(0 0 100% 0);
+    }
+    to {
+        clip-path: inset(0 0 0 0);
+    }
+}
+
+/* Hide the video container after use */
+.hidden {
+    display: none !important;
+}

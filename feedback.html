@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Intelligentsia Club</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/feedback.css"> <!-- Link to your CSS file -->
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/logof.png">
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico"> <!-- For older browsers -->
+</head>
+<body>
+
+<div id="feedback-form">
+  <h2>We Value Your Feedback</h2>
+  <p>Please take a moment to share your thoughts about our club!</p>
+  <form action="https://formspree.io/f/mnnqqwrq" method="POST">
+    <label for="email">Your Email:</label>
+    <input 
+      type="email" 
+      id="email" 
+      name="email" 
+      placeholder="you@example.com" 
+      required
+    >
+
+    <label for="message">Your Feedback:</label>
+    <textarea 
+      id="message" 
+      name="message" 
+      placeholder="Write your feedback here..." 
+      required
+    ></textarea>
+
+    <button type="submit">Submit Feedback</button>
+  </form>
+</div>
+
+</body>
+</html>

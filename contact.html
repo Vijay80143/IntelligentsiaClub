@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intelligentsia Club</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/contact.css"> <!-- Link to your CSS file -->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/logof.png">
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico"> <!-- For older browsers -->
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <!-- Left side -->
+            <div class="left-side">
+                <h1>Let's Get In Touch</h1>
+                <img src="assets/images/contact.png" alt="Left side image" class="image">
+                <h3>Connect With Us</h3>
+                <div class="social-links">
+                    <img src="https://img.icons8.com/fluency/48/instagram-new.png" alt="Instagram"/>
+                    <img src="https://img.icons8.com/fluency/48/telegram-app.png" alt="Telegram"/>
+                </div>
+            </div>
+
+            <!-- Right side -->
+            <div class="right-side">
+                <h2>Contact Us</h2>
+                <!-- Update the form action to point to Formspree -->
+                <form action="https://formspree.io/f/xbljjwbr" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone:</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message"></textarea>
+                    </div>
+                    <button type="submit" class="btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="footer-placeholder"></div>
+    <script src="assets/js/contact.js"></script>
+</body>
+</html>
