@@ -1,0 +1,214 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(2, 2, 41);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('../images/night-sky.jpg') no-repeat center center/cover;
+}
+
+.card {
+    background-color: #fff;
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 800px;
+    max-width: 95%;
+    overflow: hidden;
+    height: 530px;
+}
+
+/* Left side styling */
+.left-side {
+    background-color: #042e5a;
+    color: white;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 50%;
+    position: relative;
+}
+
+.left-side h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    white-space: nowrap;
+    letter-spacing: -2px;
+    word-spacing: 5px;
+}
+
+/* Centering the image and social links */
+.left-side img {
+    width: 280px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.left-side h3 {
+    margin-left: 60px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    margin-left: 45px;
+    margin-bottom: auto; /* Adds space between the image and bottom */
+}
+
+.social-links img {
+    width: 48px;
+    height: 48px;
+    margin: 0 10px;
+}
+
+/* Right side styling */
+.right-side {
+    padding: 30px;
+    width: 50%; /* Adjusts the width of the right side */
+    background-color: rgba(8, 76, 121, 0.559);
+   
+}
+
+.form-group {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-group textarea {
+    height: 70px;
+}
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: -50px;
+    margin-left:120px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+.card {
+flex-direction: column; /* Stack left and right sides */
+height: auto; /* Allow height to adjust */
+margin-top: 100px;
+}
+
+.left-side,
+.right-side {
+width: 100%; /* Full width for both sides */
+}
+
+.left-side h1 {
+font-size: 2rem; /* Adjust font size for smaller screens */
+margin-left: 10px; /* Reduce margin */
+}
+
+.left-side img {
+width: 170px; /* Adjust image size */
+margin-left: 0; /* Center the image */
+margin: 0 auto 20px; /* Center and adjust bottom margin */
+}
+
+.left-side h3 {
+margin-left: 0; /* Center the heading */
+text-align: center; /* Center the heading */
+margin-left: 80px;
+}
+
+.social-links {
+justify-content: center; /* Center social links */
+margin-left: 90px;
+margin-bottom: 20px; /* Space between social links and bottom */
+}
+.social-links img {
+    width: 48px;
+    height: 48px;
+    margin: 0 10px;
+}
+
+.form-group {
+margin-top: 15px; /* Reduce top margin */
+}
+
+.form-group label {
+font-size: 0.9rem; /* Smaller label font size */
+}
+
+.form-group input,
+.form-group textarea {
+padding: 8px; /* Smaller padding for inputs */
+}
+
+.btn {
+margin-left: 0; /* Center the button */
+display: block; /* Display as block */
+margin: 20px auto 0; /* Center and add top margin */
+}
+}
+
+/* Tablet Styles */
+@media (min-width: 769px) and (max-width: 1024px) {
+.card {
+height: auto; /* Allow height to adjust */
+margin-top: 90px;
+}
+
+.left-side h1 {
+font-size: 2.2rem; /* Adjust font size for tablets */
+}
+
+.left-side img {
+width: 250px; /* Adjust image size */
+margin-left: 40px;
+}
+
+.left-side h3 {
+margin-left: 80px; /* Adjust margin */
+}
+
+.social-links {
+margin-left: 70px; /* Adjust margin for social links */
+}
+.social-links img {
+    width: 48px;
+    height: 48px;
+    margin: 0 10px;
+}
+
+.btn {
+margin-left: 100px; /* Adjust button margin for tablets */
+}
+}
+

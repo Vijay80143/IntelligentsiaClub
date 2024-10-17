@@ -1,0 +1,148 @@
+body {
+    background-color: rgb(2, 2, 41); /* Background color for body */
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .vijay {
+    background: url('../images/night-sky.jpg') no-repeat center center/cover;
+    background-color: rgb(2, 2, 41); /* Add background color for consistency where the image is not covering */
+    padding: 20px; /* Optional: Adds some spacing */
+  }
+  
+  .home-content-1 h1 {
+    margin-top: 100px;
+  }
+  
+         .container {
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: space-between; /* Space between the cards */
+              padding: 10px; /* Reduced padding */
+              max-width: 1200px; /* Set a maximum width for the container */
+              margin: 0 auto; /* Center the container */
+          }
+
+          
+  
+          .card {
+              background-color: #fff;
+              border-radius: 8px;
+              box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+              margin: 10px;
+              overflow: hidden;
+              width: calc(33.33% - 20px); /* Three cards in a row with margins considered */
+              height: 360px; /* Fixed height for the card */
+              text-align: center; /* Center text in the card */
+          }
+  
+          .card-image {
+              position: relative;
+              overflow: hidden; /* Hide overflow if the image is too big */
+              height: 420px; /* Set a fixed height for the image container */
+          }
+  
+          .card-image img {
+              width: 100%; /* Adjust width */
+              height: auto; /* Maintain aspect ratio */
+              display: block;
+              object-fit: cover; /* Crop the image to cover the container */
+              margin: 0 auto; /* Center the image */
+          }
+  
+          .overlay {
+              background-color: transparent;
+              color: #fff;
+              padding: 10px; /* Add some padding */
+              position: absolute; /* Position absolutely */
+              bottom: -100%; /* Start off-screen */
+              left: 0;
+              right: 0;
+              transition: bottom 0.3s ease; /* Animate the sliding effect */
+              height: 100px; /* Height of the overlay */
+          }
+  
+          
+  
+          .card:hover .overlay {
+              bottom: 0; /* Show overlay on hover */
+          }
+  
+          .learn-more {
+              background-color: rgb(0 16 255); /* Tomato color */
+              color: white;
+              padding: 10px 15px;
+              text-decoration: none;
+              border-radius: 5px;
+             
+          }
+  
+  /* Mobile and Tablet Styles */
+  @media (max-width: 768px) {
+      .home-content h1 {
+          margin-top: 100px; /* Reduce the margin for smaller screens */
+          font-size: 24px; /* Adjust font size for the title */
+      }
+  
+      .container {
+          flex-direction: column; /* Stack cards vertically on small screens */
+          align-items: center; /* Center cards */
+          padding: 10px; /* Maintain padding */
+      }
+  
+      .card {
+          width: 90%; /* Make cards wider on mobile */
+          margin: 10px 0; /* Space between cards */
+          height: 300px; /* Allow height to adjust based on content */
+      }
+  
+      .card-image {
+          height: 300px; /* Set a fixed height for the image container on mobile */
+      }
+  
+      .card-image img {
+          height: 100%; /* Make the image fill the container */
+      }
+  
+      .overlay {
+          height: 50px; /* Adjust overlay height for mobile */
+      }
+  
+      .learn-more {
+          padding: 5px 10px; /* Adjust padding for mobile */
+          font-size: 14px; /* Adjust font size for buttons */
+      }
+  }
+  
+  /* Additional Tablet Styles */
+  @media (min-width: 769px) and (max-width: 1024px) {
+      .home-content h1 {
+          margin-top: 80px; /* Slightly larger margin for tablets */
+          font-size: 28px; /* Adjust font size for tablets */
+      }
+  
+      .container {
+          flex-direction: row; /* Maintain row layout for tablets */
+      }
+  
+      .card {
+          width: calc(50% - 20px); /* Two cards in a row on tablets */
+          margin: 10px; /* Maintain margin */
+          height: 380px; /* Fixed height for the card */
+      }
+  
+      .card-image {
+          height: 380px; /* Adjust image height for tablets */
+      }
+  
+      .overlay {
+          height: 80px; /* Adjust overlay height for tablets */
+      }
+  
+      .learn-more {
+          padding: 8px 12px; /* Adjust padding for tablet buttons */
+          font-size: 16px; /* Adjust font size for buttons */
+      }
+  }
+  

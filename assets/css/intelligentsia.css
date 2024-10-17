@@ -1,0 +1,259 @@
+    /* General Styles */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+       font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+       background: black;
+        color: #fff;
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+
+    /* Slide Animations */
+    @keyframes slide-down {
+        from {
+            transform: translateY(-50px);
+            opacity: 0;
+        }
+        to {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+
+    @keyframes slide-in-left {
+        from {
+            transform: translateX(-100%);
+            opacity: 0;
+        }
+        to {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+
+    @keyframes slide-in-right {
+        from {
+            transform: translateX(100%);
+            opacity: 0;
+        }
+        to {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+
+    /* Home content animation styling */
+    .home-content h3 {
+        animation: slide-down 1s ease-in-out;
+    }
+
+    .home-content h1 {
+        animation: slide-in-left 1.2s ease-in-out;
+    }
+
+    .home-content p {
+        animation: slide-in-right 1.4s ease-in-out;
+    }
+
+    .home-image img {
+        animation: slide-down 1.6s ease-in-out;
+    }
+
+.home {
+height: 90vh;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 0 10%;
+background: url('../images/night-sky.jpg') no-repeat center center/cover;
+gap: 50px; /* Adds space between content and image */
+}
+
+.home-content {
+text-align: left;
+width: 50%; /* Adjust width to fit side-by-side */
+}
+.home-content h3{
+    font-size: 2.5em;
+}
+.home-content h1{
+    font-size: 1.8em;
+}
+
+
+.home-image {
+width: 50%; /* Adjust to fit side-by-side */
+display: flex;
+justify-content: center;
+margin-right: -100px;
+}
+
+.home-image img {
+width: 80%; /* Adjust image size */
+height: auto;
+}
+
+
+
+    
+
+    /* Accordion Section Styles */
+    .accordion-container {
+        padding: 20px 10%;
+        background: url('../images/night-sky.jpg') no-repeat center center/cover;
+    }
+
+    .accordion-container h1 {
+        margin-top: 10px;
+        margin-left: -650px;
+        font-size: 2.5em;
+        text-align: center; /* Center the title */
+        width: 100%; /* Full width for the title */
+       
+    }
+
+    .social-buttons {
+        display: flex;
+        flex-direction: column; /* Arrange buttons vertically */
+        align-items: flex-start; /* Align buttons to the left */
+        gap: 20px; /* Space between buttons */
+        margin-left: -50px; /* Adjust margin from the left */
+        margin-top: 40px; /* Space from the top */
+    }
+
+    .social-button {
+        display: flex;
+        align-items: center;
+        justify-content: space-between; /* Space between text and icon */
+        padding: 10px 20px;
+        border: none;
+        border-radius: 25px;
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+        width: 200px; /* Adjust width */
+        transition: background-color 0.3s ease;
+    }
+
+    .social-button img {
+        width: 30px;
+        height: 30px;
+    }
+
+    /* Button Colors */
+    .instagram {
+        background-color: #E1306C;
+    }
+
+    .instagram:hover {
+        background-color: #C32AA3;
+    }
+
+    .linkedin {
+        background-color: #0077B5;
+    }
+
+    .linkedin:hover {
+        background-color: #005582;
+    }
+
+    .telegram {
+        background-color: #0088CC;
+    }
+
+    .telegram:hover {
+        background-color: #006699;
+    }
+
+    /* Style for text lines after buttons */
+    .social-button-text {
+        margin-top: 1px;
+        margin-left: 17px;
+        color: white;
+        font-size: 14px;
+    }
+    
+    
+
+    .content {
+        display: flex; /* Use flexbox for layout */
+        width: 100%; /* Full width */
+    }
+
+    .text-content {
+        flex: 1; /* Take up remaining space */
+        padding-right: 20px; /* Space between text and grid */
+    }
+
+    .grid-container {
+        display: flex;
+        align-items: center; /* Center vertically */
+        margin-top: -300px;
+        margin-left: 350px;
+        margin-bottom: 40px;
+        flex-direction: row; /* Arrange arrows and grid horizontally */
+    }
+
+    .arrow {
+       cursor: pointer;
+       padding: 10px; /* Adjust padding if necessary */
+       display: flex; /* Center arrows vertically */
+       align-items: center; /* Center arrows vertically */
+          }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        opacity: 0; /* Hide grid initially */
+        transition: opacity 0.5s;
+        flex-grow: 1; /* Allow grid to grow */
+    }
+
+    .card {
+        background-color: rgba(9, 127, 244, 0.362);
+        padding: 15px;
+        border-radius: 15px; /* Curved borders for the cards */
+        height: 250px;
+        width: 260px;
+    }
+
+    h2 {
+        font-size: 1.0rem;
+        margin-bottom: 10px;
+    }
+   
+
+    .hidden {
+        display: none; /* Class to hide elements */
+    }
+
+
+    /* Carousel Section Styles */
+    .hero {
+        width: 100%;
+        height: 100vh;
+        background: url('../images/background-2.jpg') no-repeat center center/cover;
+        overflow: hidden;
+    }
+
+    .hero .carousel {
+        width: 300px;
+        margin: 100px auto 0;
+        overflow: visible;
+    }
+
+    .carousel img {
+        -webkit-box-reflect: below 20px linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3));
+    }
+    
+   
+   
+  
