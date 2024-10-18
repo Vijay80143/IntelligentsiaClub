@@ -1,69 +1,69 @@
-    /* General Styles */
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-       font-family: 'Poppins', sans-serif;
-    }
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+}
 
-    body {
-       background: black;
-        color: #fff;
-        font-size: 16px;
-        line-height: 1.6;
-    }
+body {
+   background: black;
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.6;
+}
 
 
-    /* Slide Animations */
-    @keyframes slide-down {
-        from {
-            transform: translateY(-50px);
-            opacity: 0;
-        }
-        to {
-            transform: translateY(0);
-            opacity: 1;
-        }
+/* Slide Animations */
+@keyframes slide-down {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
     }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
 
-    @keyframes slide-in-left {
-        from {
-            transform: translateX(-100%);
-            opacity: 0;
-        }
-        to {
-            transform: translateX(0);
-            opacity: 1;
-        }
+@keyframes slide-in-left {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
     }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
 
-    @keyframes slide-in-right {
-        from {
-            transform: translateX(100%);
-            opacity: 0;
-        }
-        to {
-            transform: translateX(0);
-            opacity: 1;
-        }
+@keyframes slide-in-right {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
     }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
 
-    /* Home content animation styling */
-    .home-content h3 {
-        animation: slide-down 1s ease-in-out;
-    }
+/* Home content animation styling */
+.home-content h3 {
+    animation: slide-down 1s ease-in-out;
+}
 
-    .home-content h1 {
-        animation: slide-in-left 1.2s ease-in-out;
-    }
+.home-content h1 {
+    animation: slide-in-left 1.2s ease-in-out;
+}
 
-    .home-content p {
-        animation: slide-in-right 1.4s ease-in-out;
-    }
+.home-content p {
+    animation: slide-in-right 1.4s ease-in-out;
+}
 
-    .home-image img {
-        animation: slide-down 1.6s ease-in-out;
-    }
+.home-image img {
+    animation: slide-down 1.6s ease-in-out;
+}
 
 .home {
 height: 90vh;
@@ -80,10 +80,10 @@ text-align: left;
 width: 50%; /* Adjust width to fit side-by-side */
 }
 .home-content h3{
-    font-size: 2.5em;
+font-size: 2.5em;
 }
 .home-content h1{
-    font-size: 1.8em;
+font-size: 1.8em;
 }
 
 
@@ -100,259 +100,360 @@ height: auto;
 }
 
 
-
-    
-
-    /* Accordion Section Styles */
-    .accordion-container {
-        padding: 20px 10%;
-        background: url('../images/night-sky.jpg') no-repeat center center/cover;
-    }
-
-    .accordion-container h1 {
-        margin-top: 10px;
-        margin-left: -630px;
-        font-size: 2.5em;
-        text-align: center; /* Center the title */
-        width: 100%; /* Full width for the title */
-       
-    }
-
-    .social-buttons {
-        display: flex;
-        flex-direction: column; /* Arrange buttons vertically */
-        align-items: flex-start; /* Align buttons to the left */
-        gap: 20px; /* Space between buttons */
-        margin-left: -50px; /* Adjust margin from the left */
-        margin-top: 40px; /* Space from the top */
-    }
-
-    .social-button {
-        display: flex;
-        align-items: center;
-        justify-content: space-between; /* Space between text and icon */
-        padding: 10px 20px;
-        border: none;
-        border-radius: 25px;
-        text-decoration: none;
-        color: white;
-        font-size: 16px;
-        font-weight: bold;
-        width: 200px; /* Adjust width */
-        transition: background-color 0.3s ease;
-    }
-
-    .social-button img {
-        width: 30px;
-        height: 30px;
-    }
-
-    /* Button Colors */
-    .instagram {
-        background-color: #E1306C;
-    }
-
-    .instagram:hover {
-        background-color: #C32AA3;
-    }
-
-    .linkedin {
-        background-color: #0077B5;
-    }
-
-    .linkedin:hover {
-        background-color: #005582;
-    }
-
-    .telegram {
-        background-color: #0088CC;
-    }
-
-    .telegram:hover {
-        background-color: #006699;
-    }
-
-    /* Style for text lines after buttons */
-    .social-button-text {
-        margin-top: 1px;
-        margin-left: 17px;
-        color: white;
-        font-size: 14px;
-    }
-    
-    
-
-    .content {
-        display: flex; /* Use flexbox for layout */
-        width: 100%; /* Full width */
-    }
-
-    .text-content {
-        flex: 1; /* Take up remaining space */
-        padding-right: 20px; /* Space between text and grid */
-    }
-
-    .grid-container {
-        display: flex;
-        align-items: center; /* Center vertically */
-        margin-top: -300px;
-        margin-left: 330px;
-        margin-bottom: 40px;
-        flex-direction: row; /* Arrange arrows and grid horizontally */
-    }
-
-    .arrow {
-       cursor: pointer;
-       padding: 10px; /* Adjust padding if necessary */
-       display: flex; /* Center arrows vertically */
-       align-items: center; /* Center arrows vertically */
-          }
-
-    .grid {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 20px;
-        opacity: 0; /* Hide grid initially */
-        transition: opacity 0.5s;
-        flex-grow: 1; /* Allow grid to grow */
-    }
-
-    .card {
-        background-color: rgba(9, 127, 244, 0.362);
-        padding: 15px;
-        border-radius: 15px; /* Curved borders for the cards */
-        height: 250px;
-        width: 260px;
-    }
-
-    h2 {
-        font-size: 1.0rem;
-        margin-bottom: 10px;
-    }
-   
-
-    .hidden {
-        display: none; /* Class to hide elements */
-    }
-
-
-    /* Carousel Section Styles */
-    .hero {
-        width: 100%;
-        height: 100vh;
-        background: url('../images/background-2.jpg') no-repeat center center/cover;
-        overflow: hidden;
-    }
-
-    .hero .carousel {
-        width: 300px;
-        margin: 100px auto 0;
-        overflow: visible;
-    }
-
-    .carousel img {
-        -webkit-box-reflect: below 20px linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3));
-    }
-    
-   
-   
-    /* For responsiveness */
-  /* Mobile Styles */
-@media (max-width: 767px) {
-body {
-    font-size: 14px; /* Slightly smaller font size */
-}
-
-.home {
-    padding: 0 5%; /* Reduced padding */
-    text-align: center; /* Center-align text in home section */
-}
-
 .accordion-container {
-    padding: 10px 5%; /* Reduced padding for accordion section */
+    padding: 20px 10%;
+    background: url('../images/night-sky.jpg') no-repeat center center/cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: relative; /* For positioning arrows */
 }
 
 .accordion-container h1 {
-    font-size: 1.5rem; /* Larger heading for visibility */
-    margin-left: 0; /* Center the heading */
+    margin: 10px 0;
+    font-size: 2.5em;
+    text-align: center; /* Center the title */
+    width: 100%; /* Full width for the title */
+}
+
+.social-buttons {
+    display: flex;
+    flex-direction: column; /* Arrange buttons vertically */
+    align-items: flex-start; /* Align buttons to the left */
+    gap: 20px; /* Space between buttons */
+    margin-top: 40px; /* Space from the top */
+}
+
+.social-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Space between text and icon */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    width: 200px; /* Adjust width */
+    transition: background-color 0.3s ease;
+}
+
+.social-button img {
+    width: 30px;
+    height: 30px;
+}
+
+/* Button Colors */
+.instagram {
+    background-color: #E1306C;
+}
+.instagram:hover {
+    background-color: #C32AA3;
+}
+.linkedin {
+    background-color: #0077B5;
+}
+.linkedin:hover {
+    background-color: #005582;
+}
+.telegram {
+    background-color: #0088CC;
+}
+.telegram:hover {
+    background-color: #006699;
+}
+
+/* Style for text lines after buttons */
+.social-button-text {
+    margin-top: 1px;
+    margin-left: 17px;
+    color: white;
+    font-size: 14px;
+}
+
+.content {
+    display: flex; /* Use flexbox for layout */
+    width: 100%; /* Full width */
 }
 
 .grid-container {
-    margin-left: 0; /* Remove left margin */
+    display: flex;
+    align-items: center; /* Center vertically */
+    margin-top: -300px;
+    margin-left: 330px;
+    margin-bottom: 40px;
+    flex-direction: row; /* Arrange arrows and grid horizontally */
 }
 
-.grid {
-    grid-template-columns: 1fr; /* Stack cards in one column */
-    margin-top: 20px; /* Reduce margin for stacked layout */
-}
-
-.card {
-    height: auto; /* Allow card height to adjust */
-    padding: 10px; /* Reduced padding inside cards */
-    margin-bottom: 15px; /* Add space between cards */
-}
-
+/* Arrow Styles */
 .arrow {
-    display: none; /* Hide arrows on mobile */
+    cursor: pointer;
+    padding: 10px; /* Adjust padding if necessary */
+    display: flex; /* Center arrows vertically */
+    align-items: center; /* Center arrows vertically */
 }
 
+/* Grid Layout */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    opacity: 1; /* Show grid initially */
+    transition: opacity 0.5s;
+}
+
+/* Card Styles */
+.card {
+    background-color: rgba(9, 127, 244, 0.362);
+    padding: 15px;
+    border-radius: 15px; /* Curved borders for the cards */
+    height: 260px;
+    width: 260px;
+}
+
+h2 {
+    font-size: 1.0rem;
+    margin-bottom: 10px;
+}
+
+
+/* Carousel Section Styles */
 .hero {
-    height: 60vh; /* Adjust height for hero section */
-    margin-bottom: 20px; /* Space below hero section */
-    
+    width: 100%;
+    height: 100vh;
+    background: url('../images/background-2.jpeg') no-repeat center center/cover;
+    overflow: hidden;
+}
+
+.hero .carousel {
+    width: 300px;
+    margin: 100px auto 0;
+    overflow: visible;
 }
 
 .carousel img {
-    width: 100%; /* Full width for carousel images */
-    height: auto; /* Maintain aspect ratio */
+    -webkit-box-reflect: below 20px linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3));
 }
-}
+
+
 
 /* Tablet Styles */
 @media (min-width: 768px) and (max-width: 1024px) {
 body {
-    font-size: 15px; /* Adjust font size for tablets */
+    font-size: 15px; /* Adjust font size */
 }
 
 .home {
-    padding: 0 10%; /* Increase padding for tablets */
+    padding: 0 10%; /* Increase padding */
     flex-direction: column; /* Stack content vertically */
-    text-align: center; /* Center-align text in home section */
+    text-align: center; /* Center-align text */
 }
 
 .accordion-container {
-    padding: 20px 10%; /* Padding for accordion section */
+    padding: 20px 10%; /* Padding adjustment */
+    display: block; /* Ensure it stacks vertically */
+    margin-bottom: 20px; /* Add space between accordion sections */
+}
+
+.social-buttons {
+    margin-left: 300px; /* Adjusted for tablet view */
 }
 
 .accordion-container h1 {
-    font-size: 2rem; /* Larger heading for tablets */
-    margin-left: 0; /* Center the heading */
+    font-size: 2rem; /* Adjust heading size */
+    margin-left: 0; /* Center-align */
 }
 
 .grid-container {
-    margin-left: 0; /* Remove left margin */
+    display: flex; 
+    justify-content: space-between; /* Align arrows and grid */
+    align-items: center; /* Align arrows and grid vertically */
+    margin-left: -100px; /* Remove left margin */
+    margin-top: 50px; /* Add margin top */
+}
+
+.arrow {
+    cursor: pointer;
+    padding: 5px; /* Adjust padding if necessary */
+    display: flex;
+    align-items: center;
+}
+
+.arrow:first-child {
+    order: -1; /* Move first arrow to start */
+}
+
+.arrow:last-child {
+    order: 1; /* Move second arrow to end */
 }
 
 .grid {
-    grid-template-columns: repeat(2, 1fr); /* Two columns for tablets */
+    flex-grow: 1; /* Let the grid take the remaining space */
+    margin: 0 5px; /* Add margin between arrows and grid */
+    grid-template-columns: repeat(3, 1fr); /* Three columns */
+    gap: 20px; /* Space between cards */
 }
 
 .card {
     height: auto; /* Allow card height to adjust */
-    padding: 15px; /* Padding inside cards */
-}
-
-.arrow {
-    display: block; /* Show arrows on tablets */
+    padding: 15px; /* Adjust padding */
 }
 
 .hero {
-    height: 70vh; /* Adjust height for hero section */
-    margin-bottom: 30px; /* Space below hero section */
+    height: 70vh; /* Adjust height */
+    margin-bottom: 30px; /* Add space */
 }
 
 .carousel img {
-    width: 100%; /* Full width for carousel images */
+    width: 100%; /* Full width images */
     height: auto; /* Maintain aspect ratio */
+}
+}
+
+
+.mobile-faq{
+    background: url('../images/night-sky.jpg') no-repeat center center/cover;
+    margin-bottom: 40px;
+
+}
+
+/* FAQ Styles */
+.faq-navigation {
+display: flex;
+justify-content: center; /* Center the navigation buttons */
+margin-top: 20px; /* Space above the arrows */
+}
+
+.faq-card {
+padding: 10px; /* Reduce padding for mobile */
+border: 1px solid #ddd; /* Border for better visibility */
+border-radius: 8px; /* Rounded corners */
+margin: 5px 0; /* Margin for spacing */
+background-color: rgba(9, 127, 244, 0.362); /* Apply the same background as desktop cards */
+width: 90%; /* Full width on mobile */
+}
+
+/* Hide inactive FAQ cards */
+.hidden {
+display: none; /* Class to hide elements */
+}
+
+/* Desktop and Mobile Visibility */
+.desktop-only {
+display: block; /* Show in desktop view */
+}
+
+.mobile-only {
+display: none; /* Hide in desktop view */
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+.accordion-container {
+    padding: 20px; /* Add padding for mobile */
+}
+
+.accordion-container h1 {
+    margin: 10px 0;
+    font-size: 2em; /* Smaller heading size */
+}
+
+.social-buttons-1 {
+display: flex;
+flex-direction: column; /* Arrange buttons vertically */
+align-items: flex-start; /* Align buttons to the left */
+gap: 20px; /* Space between buttons */
+margin-top: 40px; /* Space from the top */
+}
+
+
+.social-buttons-1 {
+display: flex;
+align-items: center;
+justify-content: space-between; /* Space between text and icon */
+padding: 10px 20px;
+border: none;
+border-radius: 25px;
+text-decoration: none;
+color: white;
+font-size: 16px;
+font-weight: bold;
+width: 300px; /* Adjust width */
+margin-left: 70px;
+margin-top: -20px;
+transition: background-color 0.3s ease;
+}
+
+.social-button img {
+width: 30px;
+height: 30px;
+}
+
+/* Button Colors */
+.instagram {
+background-color: #E1306C;
+}
+.instagram:hover {
+background-color: #C32AA3;
+}
+.linkedin {
+background-color: #0077B5;
+}
+.linkedin:hover {
+background-color: #005582;
+}
+.telegram {
+background-color: #0088CC;
+}
+.telegram:hover {
+background-color: #006699;
+}
+
+/* Style for text lines after buttons */
+.social-button-text-1 {
+margin-top: 1px;
+margin-left: 17px;
+color: white;
+font-size: 14px;
+}
+.content {
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center align content */
+}
+
+.grid-container {
+    flex-direction: column; /* Stack cards vertically */
+    align-items: center; /* Center align cards */
+    margin-left: 0; /* Reset left margin */
+}
+
+.card {
+    width: 90%; /* Full width on mobile */
+    margin: 10px 0; /* Margin for spacing */
+}
+
+.faq-navigation {
+    flex-direction: row; /* Align arrows horizontally */
+    justify-content: space-around; /* Space around arrows */
+}
+
+.faq-card {
+    width: 100%; /* Full width for mobile FAQ cards */
+}
+
+.mobile-faq h1 {
+    font-size: 2rem; /* Smaller heading size */
+    color: white;
+    margin-left: 10px;
+}
+
+/* Hide desktop view in mobile view */
+.desktop-only {
+    display: none; /* Hide in mobile view */
+}
+
+/* Show mobile view */
+.mobile-only {
+    display: block; /* Show in mobile view */
 }
 }

@@ -122,10 +122,12 @@ footer {
 .footer-section h3 {
     font-size: 1.8rem;
     margin-bottom: 10px; /* Space below heading */
+    
 }
 
 .footer-section ul {
     list-style: none;
+    margin-left: 40px;
     padding: 0;
 }
 

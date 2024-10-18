@@ -22,7 +22,7 @@ body {
     max-width: 100%;
     overflow: hidden;
     height: auto;
-    margin-top: 40px;
+    margin-top: 150px;
     margin-bottom: 25px;
 }
 
@@ -40,10 +40,10 @@ body {
 }
 
 .left-side h1 {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     margin-bottom: 20px;
     white-space: nowrap;
-    letter-spacing: -2px;
+    letter-spacing: -1px;
     word-spacing: 5px;
 }
 
@@ -61,7 +61,7 @@ body {
 .social-links {
     display: flex;
     justify-content: center;
-    margin-left: 45px;
+    margin-left: 65px;
     margin-bottom: auto; /* Adds space between the image and bottom */
 }
 
