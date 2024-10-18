@@ -199,6 +199,7 @@ table {
         width: 100%; /* Full width on mobile and tablets */
         max-width: 933px; /* Set max width for larger displays */
         height: auto; /* Maintain aspect ratio */
+        margin-top: 70px;
         margin-bottom: 30px; /* Space between the image and the content */
     }
 
@@ -211,11 +212,28 @@ table {
 
     h1 {
         font-size: 28px;
+        margin-left: 60px;
     }
 
     p {
-        font-size: 16px;
+        font-size: 14px;
     }
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 80%;
+      }
+      
+      td, th {
+        border: 0px solid transparent;
+        text-align: left;
+        padding: 8px;
+        font-size: 1.0em;
+      }
+      
+      tr:nth-child(even) {
+        background-color: transparent;
+      }
 
     .card-container {
         width: 80%; /* Adjust width for smaller screens */
@@ -223,21 +241,21 @@ table {
     }
 
     .card-item {
-        width: 90%; /* Make cards wider */
-        height: auto; /* Allow height to adjust */
+        width: 280px; /* Make cards wider */
+        height: 250px; /* Allow height to adjust */
         margin-bottom: 30px; /* Space between cards */
     }
 
     .card-image {
-        width: 140px;
-        height: 140px;
-        top: -60px; /* Adjust position */
+        width: 160px;
+        height: 160px;
+        top: -50px; /* Adjust position */
         margin-bottom: 10px; /* Space between image and card content */
     }
 
     .card-title {
-        margin-top: 90px;
-        font-size: 18px;
+        margin-top: 100px;
+        font-size: 1.3em;
     }
 
     .mentors, .core-team {

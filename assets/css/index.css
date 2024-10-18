@@ -13,13 +13,13 @@
     overflow: hidden; /* Prevent scrolling */
 }
 
-/* Video fills the entire screen while maintaining aspect ratio */
+/* Video styling for desktop and larger screens */
 .video-container video {
-    min-width: 100%; /* Ensure video covers full width */
-    min-height: 100%; /* Ensure video covers full height */
+    min-width: 100%; 
+    min-height: 100%; 
     width: auto;
     height: auto;
-    object-fit: cover; /* Covers the screen while maintaining aspect ratio */
+    object-fit: cover;
     object-position: center;
 }
 
@@ -28,23 +28,24 @@
     display: none !important;
 }
 
-/* Media Queries for Mobile and Tablet Views */
-@media (max-width: 768px) { /* Tablets and smaller screens */
+/* Media Queries for Tablets and Smaller Screens */
+@media (max-width: 768px) { 
     .video-container {
-        align-items: flex-start; /* Align video to top for better scaling */
+        align-items: center; /* Center video vertically */
+        justify-content: center; /* Center video horizontally */
     }
-    
+
     .video-container video {
-        object-fit: contain; /* Avoids excessive cropping on small screens */
-        width: 100%; /* Stretch video width */
-        height: auto; /* Adjust height proportionally */
+        object-fit: contain; /* Ensure it’s fully visible */
+        width: 80%; /* Make the video smaller */
+        height: auto; /* Maintain aspect ratio */
     }
 }
 
 @media (max-width: 480px) { /* Mobile screens */
     .video-container video {
-        object-fit: cover; /* Still cover the screen */
-        width: 100vw; /* Ensure full width */
-        height: 100vh; /* Ensure full height */
+        width: 70%; /* Smaller video for mobile */
+        height: auto; /* Maintain aspect ratio */
+        object-fit: contain; /* Avoid cropping */
     }
 }
