@@ -118,17 +118,21 @@
     // Call the function to generate the cards
     generateTeamCards();
 
-function loadFooter() {
-    fetch('footer.html')
-        .then(response => response.text())
-        .then(data => {
-            document.getElementById('footer-placeholder').innerHTML = data;
-        })
-        .catch(error => console.error('Error loading footer:', error));
-}
-
-// Call the function to load the footer
-window.onload = loadFooter;
+    document.addEventListener('DOMContentLoaded', () => {
+        fetch('footer.html')
+          .then(response => response.text())
+          .then(data => {
+            document.getElementById('navbar-container').innerHTML = data;
+    
+            // Reattach the toggle function after loading the navbar
+            const navLinks = document.getElementById('navLinks');
+            window.toggleMenu = function (hamburger) {
+              hamburger.classList.toggle('change');
+              navLinks.classList.toggle('show');
+            };
+          })
+          .catch(error => console.error('Error loading navbar:', error));
+      });
 
 document.onkeydown = function (e) {
   // Disable F12

@@ -81,16 +81,18 @@ clearInterval(autoplayInterval);
 });
 
 
-// Load footer dynamically
-function loadFooter() {
-fetch('footer.html')
-    .then(response => response.text())
-    .then(data => {
-        document.getElementById('footer-placeholder').innerHTML = data;
-    })
-    .catch(error => console.error('Error loading footer:', error));
-}
+document.addEventListener('DOMContentLoaded', () => {
+    fetch('footer.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('navbar-container').innerHTML = data;
 
-window.onload = loadFooter;
-
-
+        // Reattach the toggle function after loading the navbar
+        const navLinks = document.getElementById('navLinks');
+        window.toggleMenu = function (hamburger) {
+          hamburger.classList.toggle('change');
+          navLinks.classList.toggle('show');
+        };
+      })
+      .catch(error => console.error('Error loading navbar:', error));
+  });
