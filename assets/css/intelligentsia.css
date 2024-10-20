@@ -386,7 +386,7 @@ display: none; /* Hide in desktop view */
             width: 280px;
             margin: 100px auto 0;
             overflow: visible;
-            transform: scale(0.6); /* Reduce zoom by 20% */
+           
             transform-origin: center;
         }
         
