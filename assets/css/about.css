@@ -38,7 +38,7 @@ body {
     flex: 1;
     color: white;
     padding: 20px;
-    margin-top: 150px;
+    margin-top: 180px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -60,7 +60,7 @@ p {
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
-    width: 70%;
+    width: 100%;
   }
   
   td, th {
