@@ -66,3 +66,20 @@ body {
   button:hover {
     background-color: #45a049;
   }
+
+  .back-arrow {
+    position: absolute; /* Position it absolutely within the body */
+    top: 20px; /* Distance from the top */
+    left: 20px; /* Distance from the left */
+    font-size: 64px; /* Size of the arrow */
+    color: white; /* Arrow color */
+    text-decoration: none; /* Remove underline */
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: semi-transparent background */
+    padding: 10px; /* Padding around the arrow */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .back-arrow:hover {
+    background-color: rgba(0, 0, 0, 0.8); /* Darken on hover */
+  }

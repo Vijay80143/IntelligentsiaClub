@@ -108,45 +108,7 @@ body {
   opacity: 1; /* Fade in */
 }
 
-/* Media Queries for Mobile */
-@media (max-width: 767px) {
-  .nav-links {
-    flex-direction: column; /* Set direction to column for mobile */
-    position: absolute; /* Keep position absolute */
-    right: 10px; /* Align to the right */
-    top: 70px; /* Space from the navbar */
-    width: 150px; /* Set a fixed width for mobile dropdown */
-    padding: 10px; /* Adjust padding */
-  }
 
-  .nav-links ul {
-    flex-direction: column; /* Set list items to vertical */
-  }
-
-  .nav-links a {
-    padding: 10px; /* Adjust padding for links */
-  }
-}
-
-/* Media Queries for Desktop */
-@media (min-width: 768px) {
-  .nav-links {
-    display: flex; /* Display as flex on larger screens */
-    position: static; /* Static position */
-    background: none; /* No background */
-    padding: 0; /* No padding */
-    visibility: visible; /* Always visible */
-    opacity: 1; /* Fully visible */
-  }
-
-  .nav-links a {
-    padding: 0 15px; /* Adjust padding for links */
-  }
-
-  .hamburger {
-    display: none; /* Hide hamburger menu */
-  }
-}
 footer {
   background-color: #6967f451;
 }
@@ -257,7 +219,7 @@ footer {
   background-color: #007bff; /* Button color */
   padding: 10px 0; /* Padding adjusted for vertical appearance */
   border-radius: 25px; /* No rounded corners */
-  width: 33px;
+  width: 27px;
   height: 140px;
   box-shadow: none; /* No shadow effect */
   z-index: 1000; /* Ensure it is above other elements */
@@ -277,6 +239,47 @@ footer {
 .feedback-button:hover {
   background-color: #0056b3; /* Darker shade on hover */
 }
+
+/* Media Queries for Mobile */
+@media (max-width: 767px) {
+  .nav-links {
+    flex-direction: column; /* Set direction to column for mobile */
+    position: absolute; /* Keep position absolute */
+    right: 10px; /* Align to the right */
+    top: 70px; /* Space from the navbar */
+    width: 150px; /* Set a fixed width for mobile dropdown */
+    padding: 10px; /* Adjust padding */
+  }
+
+  .nav-links ul {
+    flex-direction: column; /* Set list items to vertical */
+  }
+
+  .nav-links a {
+    padding: 10px; /* Adjust padding for links */
+  }
+}
+
+/* Media Queries for Desktop */
+@media (min-width: 768px) {
+  .nav-links {
+    display: flex; /* Display as flex on larger screens */
+    position: static; /* Static position */
+    background: none; /* No background */
+    padding: 0; /* No padding */
+    visibility: visible; /* Always visible */
+    opacity: 1; /* Fully visible */
+  }
+
+  .nav-links a {
+    padding: 0 15px; /* Adjust padding for links */
+  }
+
+  .hamburger {
+    display: none; /* Hide hamburger menu */
+  }
+}
+
 
 /* Media Queries for Responsive Layouts */
 @media (max-width: 768px) { /* For tablets and mobile devices */

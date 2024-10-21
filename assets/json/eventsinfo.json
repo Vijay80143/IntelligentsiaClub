@@ -1,0 +1,87 @@
+{
+    "1": {
+      "title": "Kickstart To Inelligentsia",
+      "images": [
+        "assets/images/eventsinfo/1.jpeg",
+        "assets/images/eventsinfo/2.jpeg",
+        "assets/images/eventsinfo/3.jpeg"
+      ],
+      "content": "<p>The Intelligentsia Club Kickoff marks the official launch of a vibrant community focused on AI and Machine Learning at KL University. This event introduces the club’s mission to foster innovation through hands-on projects, workshops, and discussions. Participants will explore upcoming activities, competitions, and collaborative opportunities. The agenda includes keynote speeches, project showcases, and networking sessions to inspire creativity and engagement. Students will also have a chance to pitch ideas and connect with mentors and peers. Join us to embark on an exciting journey of learning, collaboration, and future-ready innovations!</p>",
+      "Category": "IIE",
+      "Date": "21-09-2024",
+      "Venue": "M207"
+      
+      
+    },
+    "2": {
+      "title": "Innovative Medicne:AI Edition",
+      "images": [
+        "assets/images/eventsinfo/4.jpeg",
+        "assets/images/eventsinfo/5.jpeg",
+        "assets/images/eventsinfo/6.jpeg"
+      ],
+      "content": "<p>The Innovative Medicine: AI Edition event explores the transformative role of Artificial Intelligence in modern healthcare. It highlights advancements in AI-powered diagnostics, personalized medicine, and predictive analytics. Experts will share insights on the future of healthcare, showcasing real-world applications of AI in improving patient outcomes. Attendees can engage in discussions, explore innovative projects, and network with professionals and peers. This event aims to inspire students to bridge the gap between technology and medicine, driving innovations for a healthier future.</p>",
+      "Category": "HWB",
+      "Date": "27-09-2024",
+      "Venue": "C411"
+      
+      
+    },
+   "3": {
+      "title": "Reverse Engineering",
+      "images": [
+        "assets/images/eventsinfo/7.jpeg",
+        "assets/images/eventsinfo/8.jpeg",
+        "assets/images/eventsinfo/9.jpeg"
+      ],
+      "content": "<p>The Reverse Engineering event delves into the art of deconstructing systems to understand their design, functionality, and underlying mechanics. Participants will explore techniques used to analyze hardware, software, and algorithms, uncovering how products work from the inside out. The event will feature expert talks, hands-on activities, and challenges to reverse-engineer real-world examples. It aims to sharpen problem-solving skills, foster innovation, and inspire participants to rethink designs and processes. This is an excellent opportunity for students to gain insights into cybersecurity, product development, and creative engineering solutions.</p>",
+      "Category": "TEC",
+      "Date": "30-09-2024",
+      "Venue": "R407A"
+      
+      
+    },
+    "4": {
+      "title": "Prompt Rush",
+      "images": [
+        "assets/images/eventsinfo/10.jpeg",
+        "assets/images/eventsinfo/11.jpeg",
+        "assets/images/eventsinfo/12.jpeg"
+      ],
+      "content": "<p>Prompt Rush is an exciting event designed to challenge participants' creativity and problem-solving skills through rapid-fire AI prompts. Participants will receive time-bound tasks requiring them to generate innovative solutions, stories, or code using AI tools. The event emphasizes quick thinking, adaptability, and collaboration, with each round introducing new themes or problem statements. It’s an engaging way to explore AI-powered creativity while competing with peers in a dynamic environment. Whether you’re a beginner or an expert, Prompt Rush promises fun, learning, and the thrill of thinking on your feet!</p>",
+      "Category": "TEC",
+      "Date": "30-09-2024",
+      "Venue": "R407B"
+      
+      
+    },
+    "5": {
+      "title": "Algorithm Design",
+      "images": [
+        "assets/images/eventsinfo/13.jpeg",
+        "assets/images/eventsinfo/14.jpeg",
+        "assets/images/eventsinfo/15.jpeg"
+      ],
+      "content": "<p>The Algorithm Design event focuses on the art of creating efficient and innovative algorithms to solve complex problems. Participants will explore fundamental techniques such as recursion, dynamic programming, greedy methods, and divide-and-conquer strategies. Through hands-on challenges and competitive tasks, the event aims to enhance problem-solving abilities and critical thinking. Expert talks will provide insights into real-world applications of algorithms across various fields, including AI, data science, and cybersecurity. It’s an excellent opportunity for students to sharpen their coding skills and design optimal solutions under time constraints.</p>",
+      "Category": "TEC",
+      "Date": "05-10-2024",
+      "Venue": "R407A"
+      
+      
+    },
+    "6": {
+      "title": "AI in Motion: Powering the Future of Smart Cities",
+      "images": [
+        "assets/images/eventsinfo/16.jpeg",
+        "assets/images/eventsinfo/17.jpeg",
+        "assets/images/eventsinfo/18.jpeg"
+      ],
+      "content": "<p>AI in Motion: Powering the Future of Smart Cities explores how Artificial Intelligence is transforming urban spaces into smarter, more sustainable environments. The event will showcase innovations in areas such as traffic management, energy optimization, public safety, and smart infrastructure. Participants will learn about real-world applications of AI, including IoT integration, predictive analytics, and autonomous systems. Through expert talks, interactive sessions, and project showcases, the event aims to inspire students to develop solutions that address the challenges of modern cities and pave the way for a more efficient, connected future.</p>",
+      "Category": "TEC",
+      "Date": "19-10-2024",
+      "Venue": "M207"
+      
+      
+    }
+  }
+  

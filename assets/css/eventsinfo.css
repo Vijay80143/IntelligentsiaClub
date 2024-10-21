@@ -1,0 +1,191 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+
+  .event-details {
+    background: url('../images/night-sky.jpg') no-repeat center center/cover;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex; /* Use flexbox to create two columns */
+    flex-direction: column; /* Stack content vertically */
+    overflow: hidden; /* Hide overflow content */
+  }
+
+  .slider {
+    width: 50%; /* Full width of the container */
+    margin-top: 300px;
+    max-height: 450px; /* Adjusted max height */
+    margin-left: 350px;
+    border-radius: 10px;
+    margin-bottom: 20px; /* Space between slider and content */
+    overflow: hidden;
+    position: relative;
+  }
+
+  .slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+  }
+
+  .slides img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .slider-nav {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+  }
+
+  .slider-nav button {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .event-content {
+    display: flex; /* Use flexbox for left and right content */
+    flex: 1; /* Allow it to grow and fill space */
+    margin-left: 100px;
+    margin-top: 20px; /* Added margin to space it from the slider */
+  }
+
+  .left-content {
+    flex: 0 0 60%; /* 60% width for left content */
+    padding-right: 200px; /* Space between left and right content */
+    overflow-y: auto; /* Allow vertical scrolling if needed */
+  }
+
+  .right-content {
+    flex: 0 0 40%; /* 40% width for right content */
+    overflow-y: auto; /* Allow vertical scrolling if needed */
+  }
+
+  .content h1 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .content p {
+    color: white;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 10px 0;
+  }
+
+  .event-info {
+    color: white;
+    text-align: left; /* Align text to the left */
+  }
+
+  .event-info p {
+    color: white;
+    margin: 5px 0; /* Space between lines */
+  }
+
+  .back-arrow {
+    position: absolute; /* Position it absolutely within the body */
+    top: 20px; /* Distance from the top */
+    left: 20px; /* Distance from the left */
+    font-size: 64px; /* Size of the arrow */
+    color: white; /* Arrow color */
+    text-decoration: none; /* Remove underline */
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: semi-transparent background */
+    padding: 10px; /* Padding around the arrow */
+    border-radius: 5px; /* Rounded corners */
+    margin-bottom: 20px;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .back-arrow:hover {
+    background-color: rgba(0, 0, 0, 0.8); /* Darken on hover */
+  }
+  
+  /* Tablet View (width between 768px and 1024px) */
+@media (max-width: 1024px) and (min-width: 768px) {
+.slider {
+  width: 70%; /* Make slider larger on tablets */
+  margin-top: 400px;
+  margin-left: 100px;
+}
+
+.event-content {
+  flex-direction: column; /* Stack left and right content vertically */
+  margin-left: 0;
+  margin-top: 20px;
+}
+
+.left-content, 
+.right-content {
+  flex: 1; /* Make both contents occupy equal space */
+  padding-right: 0;
+  margin-bottom: 20px; /* Add spacing between content sections */
+}
+
+}
+
+/* Mobile View (width below 768px) */
+@media (max-width: 767px) {
+.event-details {
+  width: 100%; /* Reduce container width */
+  padding: 10px; /* Adjust padding */
+  
+}
+
+.slider {
+  width: 100%; /* Full width slider for mobile */
+  margin-top: 20px;
+  margin-left: 0;
+  max-height: 300px; /* Reduce height */
+  margin-top: 300px;
+}
+
+.slider-nav button {
+  padding: 5px; /* Smaller navigation buttons */
+}
+
+.event-content {
+  flex-direction: column; /* Stack left and right content vertically */
+  margin-left: 0;
+  margin-top: 20px;
+}
+
+.left-content, 
+.right-content {
+  flex: 1; /* Make both sections equal height */
+  padding-right: 0;
+  margin-bottom: 10px; /* Add spacing */
+}
+
+.content h1 {
+  font-size: 20px; /* Adjust heading size */
+}
+
+.content p {
+  font-size: 14px; /* Smaller font size */
+}
+
+.event-info h2 {
+  font-size: 18px;
+}
+
+.event-info p {
+  font-size: 14px;
+}
+}

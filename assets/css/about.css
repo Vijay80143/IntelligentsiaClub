@@ -97,6 +97,7 @@ table {
 
 .card-item {
     background-color: #6967f4a3;
+    border: 2px solid #e0e0e0; /* Light border for the box */
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -104,7 +105,7 @@ table {
     height: 270px;
     padding: 20px;
     margin: 20px;
-    margin-bottom: 120px;
+    margin-bottom: 100px;
     position: relative;
     transition: transform 0.3s ease;
 }
@@ -159,6 +160,7 @@ table {
 .directors-core-team {
     background: url('../images/night-sky.jpg') no-repeat center center/cover;
     margin-top: 0;
+    
 }
 
 .section {
@@ -182,6 +184,56 @@ table {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+}
+.box-container {
+    border: 2px solid #e0e0e0; /* Light border for the box */
+    border-radius: 10px; /* Rounded corners */
+    background-color: #6967f4a3; /* Background color for the box */
+    width: 650px;
+    margin-top: -60px;
+    margin-left: 450px;
+    padding: 20px; /* Inner padding */
+    margin-bottom: 0px; /* Spacing below the box */
+    
+}
+
+.header-container {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    margin-bottom: 20px; /* Space between header and core team section */
+}
+
+.logo {
+    flex: 0 0 auto; /* Prevent logo from growing */
+    margin-right: 20px; /* Space between logo and heading */
+}
+
+.team-logo {
+    margin-left: 50px;
+    width: 50px; /* Adjust logo size as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.header-content {
+    margin-left: 150px;
+    flex: 1; /* Allow the content to grow */
+}
+.header-content h1{
+    font-size: 1.3em;
+}
+
+.learn-more-button {
+    display: inline-block;
+    padding: 10px 15px; /* Button padding */
+    background-color: #007bff; /* Button color */
+    color: white; /* Button text color */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition for hover */
+}
+
+.learn-more-button:hover {
+    background-color: #0056b3; /* Darker color on hover */
 }
 
 /* Mobile and Tablet View Styling */
@@ -267,6 +319,47 @@ table {
 
     .space {
         margin-top: 80px;
+    }
+    .box-container {
+        width: 90%; /* Make the box responsive */
+        height: 135px;
+        margin: 20px auto; /* Center the box horizontally */
+        padding: 15px; /* Adjust padding for smaller screens */
+    }
+
+    .header-container {
+        flex-direction: column; /* Stack elements vertically */
+        align-items: center; /* Center content horizontally */
+        text-align: center; /* Align text to center */
+    }
+
+    .logo {
+        margin-bottom: 10px; /* Space between logo and heading */
+    }
+
+    .team-logo {
+        margin-top: 10px;
+        width: 70px; /* Slightly larger logo for better visibility */
+        height: auto;
+        margin-left: 0px; /* Center the logo */
+    }
+
+    .header-content {
+        margin: 0; /* Reset margin for smaller screens */
+        align-items: center; /* Center content */
+    }
+
+    .header-content h1 {
+        font-size: 0.6em; /* Adjust heading size */
+        margin-bottom: 10px; /* Space between heading and button */
+        margin-left: -10px;
+    }
+
+    .learn-more-button {
+        width: 60%; /* Full-width button for smaller screens */
+        padding: 12px; /* Adjust padding for a better look */
+        font-size: 0.4em; /* Slightly larger text */
+        margin-left: -10px;
     }
 }
 
