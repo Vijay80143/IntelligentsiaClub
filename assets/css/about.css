@@ -38,7 +38,7 @@ body {
     flex: 1;
     color: white;
     padding: 20px;
-    margin-top: -20px;
+    margin-top: 150px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -190,11 +190,8 @@ table {
     border-radius: 10px; /* Rounded corners */
     background-color: #6967f4a3; /* Background color for the box */
     width: 650px;
-    margin-top: -60px;
-    margin-left: 450px;
     padding: 20px; /* Inner padding */
-    margin-bottom: 0px; /* Spacing below the box */
-    
+    margin: -60px auto 0 auto; /* Horizontal centering */
 }
 
 .header-container {
