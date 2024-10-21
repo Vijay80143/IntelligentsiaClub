@@ -356,7 +356,7 @@ table {
     }
 
     .learn-more-button {
-        width: 60%; /* Full-width button for smaller screens */
+        width: 70%; /* Full-width button for smaller screens */
         padding: 12px; /* Adjust padding for a better look */
         font-size: 0.4em; /* Slightly larger text */
         margin-left: -10px;
