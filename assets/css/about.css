@@ -191,7 +191,7 @@ table {
     background-color: #6967f4a3; /* Background color for the box */
     width: 650px;
     padding: 20px; /* Inner padding */
-    margin: -60px auto 0 auto; /* Horizontal centering */
+    margin-left: 50vh; /* Horizontal centering */
 }
 
 .header-container {
