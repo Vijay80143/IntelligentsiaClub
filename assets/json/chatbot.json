@@ -1,7 +1,7 @@
 [
     {
         "questions": [
-            "Hi", "Hii", "hi", "hii", "Hello", "Hey", "Good morning", 
+            "Hi", "Hii","Hello", "Hey", "Good morning", 
             "Good afternoon", "Good evening", "How's it going?", 
             "Is anyone there?", "Hi there", "Greetings", "What's up?", 
             "Hey there", "Morning", "Evening", "Afternoon", "Howdy", 
@@ -17,7 +17,7 @@
     },
     {
         "questions": [
-            "What is Intelligentsia?", "Tell me about Intelligentsia", 
+            "What is Intelligentsia?", "Tell me about Intelligentsia", "About","About your club",
             "What does Intelligentsia do?", "What is your club about?", 
             "When was the club formed?", "What kind of club is this?", 
             "Is this a technical club?", "What's special about Intelligentsia?", 
