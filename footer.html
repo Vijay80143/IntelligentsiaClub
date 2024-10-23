@@ -4,24 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Intelligentsia Navbar</title>
- <!-- Font Awesome for Icons -->
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
- <!-- Google Fonts -->
- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet" />
- <!-- Carousel and Flipster styles -->
- <link rel="stylesheet" href="assets/css/jquery.flipster.min.css">
- <link rel="stylesheet" href="assets/css/footer.css"> <!-- Link to your CSS file -->
- <link rel="icon" type="image/png" sizes="32x32" href="assets/images/logof.png">
- <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico"> <!-- For older browsers -->
-  <style>
-
-
-  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/jquery.flipster.min.css">
+  <link rel="stylesheet" href="assets/css/footer.css"> <!-- Link to your CSS file -->
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/logof.png">
+  <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico"> <!-- For older browsers -->
 </head>
 <body>
 
-  <!-- Navbar Header -->
   <header class="navbar-header">
     <a href="intelligentsia.html" class="logo">
       <img src="assets/images/nav_logo.png" alt="Intelligentsia Logo" class="logo-image">
@@ -44,14 +36,11 @@
   <div class="feedback-button">
     <a href="feedback.html" class="feedback-button">Feedback on club</a>
   </div>
-  
-  
+    
   <footer>
-    <!-- Wave SVG at the top of the footer -->
     <svg class="footer-wave-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 100" preserveAspectRatio="none">
       <path class="footer-wave-path" d="M851.8,100c125,0,288.3-45,348.2-64V0H0v44c3.7-1,7.3-1.9,11-2.9C80.7,22,151.7,10.8,223.5,6.3C276.7,2.9,330,4,383,9.8 c52.2,5.7,103.3,16.2,153.4,32.8C623.9,71.3,726.8,100,851.8,100z"></path>
-    </svg>
-  
+    </svg>  
     <div class="footer-container">
       <div class="footer-section">
         <h3>INTELLIGENTSIA</h3>
@@ -70,8 +59,7 @@
           <li><a href="intelligentsia.html">Home</a></li>
           <li><a href="about.html">About us</a></li>
           <li><a href="contact.html">Contact us</a></li>
-          <li><a href="event.html">Events</a></li>
-         
+          <li><a href="event.html">Events</a></li>        
         </ul>
       </div>
       <div class="footer-section">
@@ -98,21 +86,16 @@
         </p>
       </div>
     </div>
-    
   </footer>
 
-  
   <script>
     document.addEventListener('DOMContentLoaded', () => {
       const navLinks = document.getElementById('navLinks');
-
-      // Toggle menu function
       window.toggleMenu = function(hamburger) {
         hamburger.classList.toggle('change');
         navLinks.classList.toggle('show');
       };
     });
   </script>
-
 </body>
 </html>
