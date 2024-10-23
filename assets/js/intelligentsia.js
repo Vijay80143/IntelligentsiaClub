@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', () => {
       .catch(error => console.error('Error loading navbar:', error));
   });
 
-  
+
 document.onkeydown = function (e) {
     // Disable F12
     if (e.keyCode === 123) return false;
@@ -133,4 +133,52 @@ document.onkeydown = function (e) {
       e.stopImmediatePropagation();
     }
   });
+  
+  let responses = []; // Store chatbot responses from JSON
+
+  // Load responses from JSON file
+  fetch('assets/json/chatbot.json')
+      .then(response => response.json())
+      .then(data => responses = data)
+      .catch(error => console.error('Error loading chatbot data:', error));
+  
+  const chatboxButton = document.querySelector('.chatbox__button img');
+  const chatboxSupport = document.querySelector('.chatbox__support');
+  const sendButton = document.getElementById('sendButton');
+  const userInput = document.getElementById('userInput');
+  const chatboxMessages = document.querySelector('.chatbox__messages');
+  
+  // Toggle chatbox visibility
+  chatboxButton.addEventListener('click', () => {
+      chatboxSupport.classList.toggle('chatbox--active');
+  });
+  
+  // Send message and get bot response
+  sendButton.addEventListener('click', () => {
+      const userMessage = userInput.value.trim().toLowerCase();
+      if (userMessage) {
+          displayMessage(userMessage, 'user');
+          const botResponse = getResponse(userMessage);
+          displayMessage(botResponse, 'bot');
+          userInput.value = '';
+      }
+  });
+  
+  function getResponse(userMessage) {
+      for (let item of responses) {
+          const matchedQuestion = item.questions.some(q => userMessage.includes(q.toLowerCase()));
+          if (matchedQuestion) {
+              return Array.isArray(item.answer) ? item.answer.join(' ') : item.answer;
+          }
+      }
+      return "Sorry, I don't understand.";
+  }
+  
+  function displayMessage(message, type) {
+      const messageDiv = document.createElement('div');
+      messageDiv.classList.add('message', type);
+      messageDiv.textContent = message;
+      chatboxMessages.appendChild(messageDiv);
+      chatboxMessages.scrollTop = chatboxMessages.scrollHeight;
+  }
   

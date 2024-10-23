@@ -108,7 +108,7 @@ body {
   opacity: 1; /* Fade in */
 }
 
-
+/* Footer Styles */
 footer {
   background-color: #6967f451;
 }
@@ -142,7 +142,6 @@ footer {
 .footer-section h3 {
   font-size: 1.8rem;
   margin-bottom: 10px; /* Space below heading */
-  
 }
 
 .footer-section ul {
@@ -204,6 +203,7 @@ footer {
   text-decoration: none;
 }
 
+/* Map Styles */
 .map {
   width: 80%;
   height: 200px; /* Adjust the height as needed */
@@ -211,6 +211,7 @@ footer {
   border: 0;
 }
 
+/* Feedback Button Styles */
 .feedback-button {
   position: fixed; /* Keep the button in a fixed position */
   right: 0; /* Attach it to the right edge of the page */
@@ -280,14 +281,14 @@ footer {
   }
 }
 
-
 /* Media Queries for Responsive Layouts */
 @media (max-width: 768px) { /* For tablets and mobile devices */
   .footer-container {
-      display: block; /* Stack sections vertically */
+    display: block; /* Stack sections vertically */
   }
 
   .footer-section {
-      margin-bottom: 20px; /* Space between sections */
+    margin-bottom: 20px; /* Space between sections */
   }
 }
+

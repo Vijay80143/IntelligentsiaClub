@@ -1,0 +1,270 @@
+[
+    {
+        "questions": [
+            "Hi", "Hii", "hi", "hii", "Hello", "Hey", "Good morning", 
+            "Good afternoon", "Good evening", "How's it going?", 
+            "Is anyone there?", "Hi there", "Greetings", "What's up?", 
+            "Hey there", "Morning", "Evening", "Afternoon", "Howdy", 
+            "Hi friend", "Hello there", "Hey buddy", "Hi bot", 
+            "Hello bot", "Hi Intelligentsia", "Hello Intelligentsia", 
+            "Greetings bot", "Nice to meet you", "Pleased to meet you", 
+            "Good day", "How are you?", "How are you doing?", "What's new?", 
+            "How's everything?", "How are things?", "How's your day?", 
+            "How's your day going?", "Hi, how are you?", 
+            "Hello, how are you?", "Hey, how's it going?"
+        ],
+        "answer": "Hi! Thanks for reaching out to Intelligentsia. What can I do for you?"
+    },
+    {
+        "questions": [
+            "What is Intelligentsia?", "Tell me about Intelligentsia", 
+            "What does Intelligentsia do?", "What is your club about?", 
+            "When was the club formed?", "What kind of club is this?", 
+            "Is this a technical club?", "What's special about Intelligentsia?", 
+            "Why should I join Intelligentsia?", "What makes Intelligentsia unique?", 
+            "What's the focus of Intelligentsia?", "Is this an AI club?", 
+            "Is this a data science club?", "What areas does Intelligentsia cover?", 
+            "Tell me more about your club", "Can you describe Intelligentsia?", 
+            "What's Intelligentsia all about?", "Give me an overview of Intelligentsia", 
+            "What do you do at Intelligentsia?", "What kind of activities do you do?"
+        ],
+        "answer": "Intelligentsia is a student-run AI and Data Science club at KL University. We focus on innovation, learning, and community engagement in AI and ML. Founded on March 22, 2024, we're dedicated to exploring the vast potentials of artificial intelligence."
+    },
+    {
+        "questions": [
+            "How do I join Intelligentsia?", "What is the recruitment process?", 
+            "Are new members being recruited?", "When are you accepting new members?", 
+            "Can I apply to join Intelligentsia?", "What are the requirements to join?", 
+            "Is there any membership fee?", "Do I need prior experience to join?", 
+            "How do I become a member of Intelligentsia?", 
+            "When is the next recruitment drive?", "Are first-year students allowed?", 
+            "Is this open for all students?", "Is it necessary to know AI to join?", 
+            "Are there interviews for joining?", "What skills are required?", 
+            "How long is the recruitment process?", 
+            "Will there be any selection tests?", 
+            "Can non-engineering students apply?", 
+            "What is the eligibility for joining?"
+        ],
+        "answer": "We welcome students from all years and disciplines to join Intelligentsia! No prior experience is required, though an interest in AI or Data Science is beneficial. We organize recruitment drives twice a year. Keep an eye out for announcements regarding the next recruitment period!"
+    },
+    {
+        "questions": [
+            "Is this a university club?", "Are you affiliated with KL University?", 
+            "What's your connection to KL University?"
+        ],
+        "answer": "We are KL University's premier AI and Data Science club, established in March 2024. Our club combines technical excellence with practical applications, fostering a community of innovation and learning."
+    },
+    {
+        "questions": [
+            "Who oversees Intelligentsia?", "Who runs the club?", 
+            "Who are the club's leaders?", "Is there a faculty advisor?", 
+            "Who manages the club activities?", "Is there a student committee?"
+        ],
+        "answer": "Intelligentsia is managed by a student-led committee, with guidance from faculty advisors. We encourage collaboration, leadership, and creativity in every project we undertake."
+    },
+    {
+        "questions": [
+            "What kind of events do you organize?", "Are there workshops?", 
+            "Do you conduct competitions?", "Is there an annual hackathon?", 
+            "What events can I participate in?", "Do you invite guest speakers?", 
+            "Are there any online events?", "Can non-members join your events?", 
+            "Do you host inter-university events?"
+        ],
+        "answer": "We host a variety of events, including workshops, competitions, hackathons, and guest lectures. Some events are open to all students, while others are exclusive to members. Stay tuned for our event announcements!"
+    },
+    {
+        "questions": [
+            "How do I start learning?",
+            "What should I learn first?",
+            "Where do I begin?",
+            "What's the learning path?",
+            "How to get started?",
+            "What's the roadmap?"
+        ],
+        "answer": "Our learning path is structured to accommodate all skill levels. We start with Python basics for beginners, moving through data science fundamentals, machine learning concepts, and advanced AI topics. Our mentorship program pairs you with experienced members who guide your learning journey."
+    },
+    {
+        "questions": [
+            "What resources do you provide?",
+            "What tutorials do you have?",
+            "Do you provide study materials?",
+            "What tools should I learn?",
+            "Which frameworks do you use?"
+        ],
+        "answer": "We provide a comprehensive learning ecosystem: 1) Structured tutorials and workshops 2) Hands-on projects 3) One-on-one mentoring 4) Access to our resource library 5) Regular practice sessions. You can learn at your own pace while following our recommended path."
+    },
+    {
+        "questions": [
+            "How can I learn AI?",
+            "How to learn machine learning?",
+            "Where to start with data science?"
+        ],
+        "answer": "Learning at Intelligentsia is flexible and practical. We focus on hands-on experience through projects and workshops. Basic Python knowledge is helpful but not required - we'll teach you everything from scratch. Our mentors guide you through each step of your learning journey."
+    },
+    {
+        "questions": [
+            "What programming languages should I learn?",
+            "Is Python necessary?",
+            "Do I need math knowledge?",
+            "What math topics are important?",
+            "Is statistics required?"
+        ],
+        "answer": "We recommend starting with Python basics if you're new to programming. Our learning path then covers: 1) Data analysis with Python 2) Machine learning fundamentals 3) Deep learning concepts 4) Practical projects. We provide all necessary resources and regular workshop sessions."
+    },
+    {
+        "questions": [
+            "What projects can I do?",
+            "Tell me about projects",
+            "What kind of projects?",
+            "Are there ongoing projects?",
+            "Can I join existing projects?",
+            "How to start a project?",
+            "Project opportunities?",
+            "What projects are available?",
+            "Current project openings?",
+            "Project categories?",
+            "Types of projects?",
+            "Research projects?",
+            "Industry projects?",
+            "Client projects?",
+            "Personal projects?",
+            "Team projects?",
+            "Project domains?",
+            "AI projects?",
+            "ML projects?",
+            "Data science projects?",
+            "Computer vision projects?",
+            "NLP projects?",
+            "Deep learning projects?",
+            "Web projects?",
+            "Mobile projects?",
+            "Application projects?",
+            "Research opportunities?",
+            "Development projects?",
+            "Project difficulty levels?",
+            "Beginner projects?",
+            "Intermediate projects?",
+            "Advanced projects?"
+        ],
+        "answer": "At Intelligentsia, we offer a variety of projects that cater to different interests and skill levels. Current opportunities include AI, ML, data science, computer vision, and NLP projects. You can join ongoing projects or propose your own ideas! Check our project board for updates."
+    },
+    {
+        "questions": [
+            "What projects are available?",
+            "Tell me about project categories.",
+            "What types of projects do you offer?",
+            "What research opportunities do you have?",
+            "What personal projects can I pursue?"
+        ],
+        "answer": "We have multiple categories of projects, including research, industry collaborations, and personal initiatives. You can start a project by collaborating with fellow members or participating in team-based assignments. Don't hesitate to bring your ideas to life!"
+    },
+    {
+        "questions": [
+            "What is the difficulty level of your projects?",
+            "Do you have beginner projects?",
+            "Are there intermediate and advanced projects?"
+        ],
+        "answer": "Our projects range from beginner to advanced levels, allowing everyone to find something that suits their skill set. We encourage students to work on practical applications, including web and mobile development, data analysis, and more. Join us and be part of an exciting project!"
+    },
+    {
+        "questions": [
+            "Are there ongoing AI and data science projects?",
+            "How can I join an existing project?",
+            "Can I start a new project with mentor support?"
+        ],
+        "answer": "We often have ongoing projects in AI and data science, focusing on real-world applications. Feel free to ask about joining existing teams or starting a new project with support from our mentors!"
+    },
+    {
+        "questions": [
+            "What events do you host?",
+            "Tell me about upcoming events",
+            "Are there any events planned?",
+            "How often do you have events?",
+            "What kind of events do you organize?",
+            "Can I attend events?",
+            "Where can I find event details?",
+            "Are events open to all?",
+            "What are the recent events?",
+            "How do I register for events?"
+        ],
+        "answer": "Intelligentsia hosts a variety of events, including workshops, guest lectures, and hackathons. We announce upcoming events on our Instagram page and through email newsletters. Everyone is welcome to participate!"
+    },
+    {
+        "questions": [
+            "What types of events do you have?",
+            "Do you have workshops?",
+            "Are there guest lectures?",
+            "What is the schedule of events?",
+            "Do you have webinars?"
+        ],
+        "answer": "Our events range from technical workshops to networking sessions and competitions. You can find details about upcoming events on our website and social media channels. We encourage participation from all students!"
+    },
+    {
+        "questions": [
+            "How frequently do you host events?",
+            "What are the recent events?",
+            "How can I participate in events?"
+        ],
+        "answer": "We have regular events, including coding challenges, seminars, and project showcases. Stay tuned for announcements regarding upcoming events and how to register for them!"
+    },
+    {
+        "questions": [
+            "Can I suggest an event?",
+            "What events do you recommend?",
+            "How can I get involved in shaping the event calendar?"
+        ],
+        "answer": "Feel free to suggest event ideas! We love to hear from our members about topics they find interesting. Join us and get involved in shaping the event calendar!"
+    },
+    {
+        "questions": [
+            "How can I contact you?",
+            "What's the best way to reach you?",
+            "Can I get your contact details?",
+            "How do I get in touch?",
+            "What's your email address?"
+        ],
+        "answer": "You can reach us at our email address: intelligentsia.techclub@gmail.com. We also invite you to follow us on Instagram @intelligentsia_klef for the latest updates and announcements!"
+    },
+    {
+        "questions": [
+            "Are you on social media?",
+            "How can I follow Intelligentsia?",
+            "Do you have a contact form?",
+            "Where can I find more information?",
+            "How can I connect with you?",
+            "Contact",
+            "Mail id"
+        ],
+        "answer": "For inquiries, you can email us directly at intelligentsia.techclub@gmail.com. We're also active on social media, so feel free to connect with us on Instagram for regular updates!"
+    },
+    {
+        "questions": [
+            "How can I get in touch?",
+            "What’s your email address?",
+            "How do I contact you?"
+        ],
+        "answer": "You can get in touch with us via email at intelligentsia.techclub@gmail.com. Additionally, follow our social media accounts for news, events, and more information about our club!"
+    },
+    {
+        "questions": [
+            "Insta Handle",
+            "Insta",
+            "Instagram",
+            "What’s your Instagram handle?"
+        ],
+        "answer": "Insta Handle: @Intelligentsia_klef"
+    },
+    {
+        "questions": [
+            "How can I contact you on Telegram?",
+            "What’s your Telegram handle?",
+            "Are you on Telegram?",
+            "Can I reach you on Telegram?",
+            "Do you have a Telegram group?",
+            "Telegram",
+            "telegram details"
+        ],
+        "answer": "You can find us on Telegram at https://t.me/IntelligentsiaCommunity. Feel free to join our group for updates and discussions!"
+    }
+    
+]
