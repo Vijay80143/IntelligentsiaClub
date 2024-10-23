@@ -57,7 +57,7 @@ p {
     font-size: 18px;
     line-height: 1.5;
 }
-table {
+/* table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
@@ -72,7 +72,7 @@ table {
   
   tr:nth-child(even) {
     background-color: transparent;
-  }
+  } */
 
 /* Card Layout Styling */
 .card-container {
@@ -158,10 +158,11 @@ table {
 }
 
 .directors-core-team {
-    background: url('../images/night-sky.jpg') no-repeat center center/cover;
+    background: url('../images/night-sky.jpg') repeat center center/cover;
     margin-top: 0;
     
-}
+} 
+
 
 .section {
     width: 100%;
@@ -180,58 +181,13 @@ table {
 }
 
 .space {
-    margin-top: 70px;
+    margin-top: 150px;
+    margin-bottom: -70px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
-.box-container {
-    border: 2px solid #e0e0e0; /* Light border for the box */
-    border-radius: 10px; /* Rounded corners */
-    background-color: #6967f4a3; /* Background color for the box */
-    width: 650px;
-    padding: 20px; /* Inner padding */
-    margin-left: 50vh; /* Horizontal centering */
-}
 
-.header-container {
-    display: flex; /* Use flexbox for alignment */
-    align-items: center; /* Center items vertically */
-    margin-bottom: 20px; /* Space between header and core team section */
-}
-
-.logo {
-    flex: 0 0 auto; /* Prevent logo from growing */
-    margin-right: 20px; /* Space between logo and heading */
-}
-
-.team-logo {
-    margin-left: 50px;
-    width: 50px; /* Adjust logo size as needed */
-    height: auto; /* Maintain aspect ratio */
-}
-
-.header-content {
-    margin-left: 150px;
-    flex: 1; /* Allow the content to grow */
-}
-.header-content h1{
-    font-size: 1.3em;
-}
-
-.learn-more-button {
-    display: inline-block;
-    padding: 10px 15px; /* Button padding */
-    background-color: #007bff; /* Button color */
-    color: white; /* Button text color */
-    text-decoration: none; /* Remove underline */
-    border-radius: 5px; /* Rounded corners */
-    transition: background-color 0.3s; /* Smooth transition for hover */
-}
-
-.learn-more-button:hover {
-    background-color: #0056b3; /* Darker color on hover */
-}
 
 /* Mobile and Tablet View Styling */
 @media (max-width: 768px) {
