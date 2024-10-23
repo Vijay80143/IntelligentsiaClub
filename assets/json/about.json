@@ -2,7 +2,7 @@
     "teamMembers": [
       {
         "name": "A Siva",
-        "role": "President(Founder)",
+        "role": "Founder & President",
         "imgSrc": "assets/images/team/Siva.jpg",
         "linkedIn": "https://www.linkedin.com/in/siva-addanki-838517111",
         "instagram": "https://www.instagram.com/__mr.vsn_/"
@@ -30,7 +30,7 @@
       },
       {
         "name": "N Vijay",
-        "role": "Director Of Internal Relations",
+        "role": "Co-Founder & Director Of Internal Relations",
         "imgSrc": "assets/images/team/vijay.jpg",
         "linkedIn": "https://www.linkedin.com/in/vijay-nandyala/",
         "instagram": "https://www.instagram.com/vijju_nandyala/"
@@ -44,7 +44,7 @@
       },
       {
         "name": "A Aravind",
-        "role": "Technical Chair",
+        "role": "Co-Founder & Technical Chair",
         "imgSrc": "assets/images/team/aravind.jpg",
         "linkedIn": "https://www.linkedin.com/in/anubothu-aravind/",
         "instagram": "https://www.instagram.com/i.arvn/"
