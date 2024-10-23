@@ -1,10 +1,8 @@
 [
-    { "id": 6, "image": "assets/images/events/1st_event.jpeg", "alt": "Event 1", "detailsUrl": "eventsinfo.html?id=6" },
-    { "id": 5, "image": "assets/images/events/2nd_event.jpg", "alt": "Event 2", "detailsUrl": "eventsinfo.html?id=5" },
-    { "id": 4, "image": "assets/images/events/3rd_event.jpg", "alt": "Event 3", "detailsUrl": "eventsinfo.html?id=4" },
-    { "id": 3, "image": "assets/images/events/4th_event.jpg", "alt": "Event 4", "detailsUrl": "eventsinfo.html?id=3" },
+    { "id": 1, "image": "assets/images/events/6th_event.jpeg", "alt": "Event 6", "detailsUrl": "eventsinfo.html?id=1" },
     { "id": 2, "image": "assets/images/events/5th_event.jpeg", "alt": "Event 5", "detailsUrl": "eventsinfo.html?id=2" },
-    { "id": 1, "image": "assets/images/events/6th_event.jpeg", "alt": "Event 6", "detailsUrl": "eventsinfo.html?id=1" }
-    
+    { "id": 3, "image": "assets/images/events/4th_event.jpg", "alt": "Event 4", "detailsUrl": "eventsinfo.html?id=3" },
+    { "id": 4, "image": "assets/images/events/3rd_event.jpg", "alt": "Event 3", "detailsUrl": "eventsinfo.html?id=4" },
+    { "id": 5, "image": "assets/images/events/2nd_event.jpg", "alt": "Event 2", "detailsUrl": "eventsinfo.html?id=5" },
+    { "id": 6, "image": "assets/images/events/1st_event.jpeg", "alt": "Event 1", "detailsUrl": "eventsinfo.html?id=6" }
   ]
-  
