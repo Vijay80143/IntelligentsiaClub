@@ -15,7 +15,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: url('../images/night-sky.jpg') no-repeat center center/cover;
+    background: rgb(2,0,19);
+    background: linear-gradient(90deg, rgba(2,0,19,1) 0%, rgba(8,8,92,1) 98%, rgba(8,8,92,1) 99%, rgba(8,8,92,1) 100%);
     height: 100vh;
     padding: 20px;
 }
@@ -96,7 +97,8 @@ p {
 }
 
 .card-item {
-    background-color: #6967f4a3;
+    background-color: rgba(9, 127, 244, 0.362);
+    /* background-color: #6967f4a3; */
     border: 2px solid #e0e0e0; /* Light border for the box */
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -108,6 +110,7 @@ p {
     margin-bottom: 100px;
     position: relative;
     transition: transform 0.3s ease;
+    cursor: pointer;
 }
 
 .card-item:hover {
@@ -124,7 +127,13 @@ p {
     transform: translateX(-50%);
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.4s ease-in-out; /* Adjusted transition time for smoothness */
 }
+
+.card-image:hover {
+    transform: translateX(-50%) scale(1.3); /* Keep centered with scaling */
+}
+
 
 .card-title {
     margin-top: 110px;
@@ -158,7 +167,8 @@ p {
 }
 
 .directors-core-team {
-    background: url('../images/night-sky.jpg') repeat center center/cover;
+    background: rgb(2,0,19);
+    background: linear-gradient(90deg, rgba(2,0,19,1) 0%, rgba(8,8,92,1) 98%, rgba(8,8,92,1) 99%, rgba(8,8,92,1) 100%);
     margin-top: 0;
     
 } 

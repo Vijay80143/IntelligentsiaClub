@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(2, 2, 41); /* Background color for body */
+   
     color: white;
     font-family: Arial, sans-serif;
     text-align: center;
@@ -7,19 +7,25 @@ body {
   
   .vijay {
     background: url('../images/night-sky.jpg') no-repeat center center/cover;
-    background-color: rgb(2, 2, 41); /* Add background color for consistency where the image is not covering */
+    /* background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+    background-color: rgb(2, 2, 41); Add background color for consistency where the image is not covering */
     padding: 20px; /* Optional: Adds some spacing */
   }
   
   .home-content-1 h1 {
     margin-top: 100px;
   }
-  
+  #event-container {
+    margin-bottom: 100px; /* Adjust as needed */
+    padding-bottom: 20px;
+}
+
          .container {
               display: flex;
               flex-wrap: wrap;
               justify-content: space-between; /* Space between the cards */
               padding: 10px; /* Reduced padding */
+             
               max-width: auto; /* Set a maximum width for the container */
               margin: 0 auto; /* Center the container */
           }

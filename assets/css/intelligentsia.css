@@ -72,6 +72,8 @@ justify-content: center;
 align-items: center;
 padding: 0 10%;
 background: url('../images/night-sky.jpg') no-repeat center center/cover;
+/* background: rgb(2,0,19);
+background: linear-gradient(90deg, rgba(2,0,19,1) 0%, rgba(8,8,92,1) 98%, rgba(8,8,92,1) 99%, rgba(8,8,92,1) 100%); */
 gap: 50px; /* Adds space between content and image */
 }
 
@@ -102,7 +104,9 @@ height: auto;
 
 .accordion-container {
     padding: 20px 10%;
-    background: url('../images/night-sky.jpg') no-repeat center center/cover;
+    /* background: url('../images/night-sky.jpg') no-repeat center center/cover; */
+    background: rgb(2,0,19);
+    background: linear-gradient(90deg, rgba(2,0,19,1) 0%, rgba(8,8,92,1) 98%, rgba(8,8,92,1) 99%, rgba(8,8,92,1) 100%);
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     position: relative; /* For positioning arrows */
@@ -141,6 +145,7 @@ height: auto;
 .social-button img {
     width: 30px;
     height: 30px;
+    
 }
 
 /* Button Colors */
