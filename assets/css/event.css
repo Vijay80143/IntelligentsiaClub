@@ -6,9 +6,9 @@ body {
   }
   
   .vijay {
-    background: url('../images/night-sky.jpg') no-repeat center center/cover;
-    /* background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
-    background-color: rgb(2, 2, 41); Add background color for consistency where the image is not covering */
+    /* background: url('../images/night-sky.jpg') no-repeat center center/cover; */
+    background: rgb(2,0,19);
+    background: linear-gradient(90deg, rgba(2,0,19,1) 0%, rgba(8,8,92,1) 98%, rgba(8,8,92,1) 99%, rgba(8,8,92,1) 100%);
     padding: 20px; /* Optional: Adds some spacing */
   }
   

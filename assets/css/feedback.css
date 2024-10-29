@@ -3,7 +3,9 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background: url('../images/night-sky.jpg') no-repeat center center/cover;
+    /* background: url('../images/night-sky.jpg') no-repeat center center/cover; */
+    background: rgb(2,0,19);
+    background: linear-gradient(90deg, rgba(2,0,19,1) 0%, rgba(8,8,92,1) 98%, rgba(8,8,92,1) 99%, rgba(8,8,92,1) 100%);
     background-color: #f4f4f4;
     height: 100vh; /* Full height of the viewport */
     display: flex;
@@ -74,7 +76,7 @@ body {
     font-size: 64px; /* Size of the arrow */
     color: white; /* Arrow color */
     text-decoration: none; /* Remove underline */
-    background-color: rgba(0, 0, 0, 0.5); /* Optional: semi-transparent background */
+    background-color: transparent; /* Optional: semi-transparent background */
     padding: 10px; /* Padding around the arrow */
     border-radius: 5px; /* Rounded corners */
     transition: background-color 0.3s; /* Smooth transition for hover effect */

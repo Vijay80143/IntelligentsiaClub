@@ -10,9 +10,9 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('../images/night-sky.jpg') no-repeat center center/cover;
-    /* background: rgb(2,0,19);
-    background: linear-gradient(90deg, rgba(2,0,19,1) 0%, rgba(8,8,92,1) 98%, rgba(8,8,92,1) 99%, rgba(8,8,92,1) 100%); */
+    /* background: url('../images/night-sky.jpg') no-repeat center center/cover; */
+    background: rgb(2,0,19);
+    background: linear-gradient(90deg, rgba(2,0,19,1) 0%, rgba(8,8,92,1) 98%, rgba(8,8,92,1) 99%, rgba(8,8,92,1) 100%);
 }
 
 .card {
@@ -30,7 +30,7 @@ body {
 
 /* Left side styling */
 .left-side {
-    background-color: #042e5a;
+    background-color: rgba(8, 76, 121, 0.559);
     color: white;
     padding: 30px;
     display: flex;
@@ -77,8 +77,8 @@ body {
 .right-side {
     padding: 30px;
     width: 50%; /* Adjusts the width of the right side */
-
-    background-color: rgba(8, 76, 121, 0.559);
+    background-color: #042e5a;
+   
    
    
 }
