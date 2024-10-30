@@ -87,8 +87,5 @@
     ]
   }
 
-{
-  "description": "The JSON data represents a team of professionals, each with distinct roles and responsibilities. It includes members such as the 'Founder & President,' 'Director of Technology,' and 'Marketing Chair,' illustrating the diversity of skills and expertise within the group. Each member is depicted through an object containing their name, role, and links to their images, LinkedIn profiles, and Instagram accounts. This format enables easy presentation of team information on websites or applications, enhancing transparency and connectivity within the organization."
-}
 
   
