@@ -1,90 +1,95 @@
-let currentIndex = 0; // Track the current slide index
+let currentIndex = 0;
 
-// Extract the event ID from the URL's query parameters
-const params = new URLSearchParams(window.location.search);
-const eventId = params.get('id'); // Retrieve 'id' parameter value from the URL
+  // Extract the event ID from the URL
+  const params = new URLSearchParams(window.location.search);
+  const eventId = params.get('id');
 
-// Fetch the events data from the specified JSON file
-fetch('assets/json/eventsinfo.json') // Updated path to JSON file
-  .then(response => response.json()) // Parse the response as JSON
-  .then(events => {
-    const event = events[eventId]; // Find the event using the eventId
+  // Fetch the events data from the JSON file
+  fetch('assets/json/eventsinfo.json') // Updated path
+    .then(response => response.json())
+    .then(events => {
+      const event = events[eventId];
 
-    if (event) {
-      // Display the main content of the event
-      document.getElementById('event-content').innerHTML = `
-        <h1>${event.title}</h1>
-        ${event.content} <!-- Display event title and content -->
-      `;
+      if (event) {
+        // Display Event Content
+        document.getElementById('event-content').innerHTML = `
+          <h1>${event.title}</h1>
+          ${event.content}
+        `;
 
-      // Display additional event information
-      document.getElementById('event-info').innerHTML = `
-        <h2>Event Details</h2>
-        <p><strong>Category:</strong> ${event.Category}</p>
-        <p><strong>Date:</strong> ${event.Date}</p>
-        <p><strong>Venue:</strong> ${event.Venue}</p> <!-- Display category, date, and venue -->
-      `;
+        // Display Event Info
+        document.getElementById('event-info').innerHTML = `
+          <h2>Event Details</h2>
+          <p><strong>Category:</strong> ${event.Category}</p>
+          <p><strong>Date:</strong> ${event.Date}</p>
+          <p><strong>Venue:</strong> ${event.Venue}</p>
+        `;
 
-      // Display the event's images as slides
-      const slidesContainer = document.getElementById('event-slides');
-      slidesContainer.innerHTML = event.images
-        .map(image => `<img src="${image}" alt="${event.title} Image">`) // Display each image
-        .join('');
+        // Display Slides
+        const slidesContainer = document.getElementById('event-slides');
+        slidesContainer.innerHTML = event.images
+          .map(image => `<img src="${image}" alt="${event.title} Image">`)
+          .join('');
 
-      showSlide(0); // Show the first slide initially
-    } else {
-      // Display an error message if the event is not found
-      document.getElementById('event-details').innerHTML = `<p>Event not found!</p>`;
-    }
-  })
-  .catch(error => {
-    console.error('Error fetching events:', error);
-    // Display an error message if fetching fails
-    document.getElementById('event-details').innerHTML = `<p>Error loading event details.</p>`;
+        showSlide(0); // Show the first slide initially
+      } else {
+        document.getElementById('event-details').innerHTML = `<p>Event not found!</p>`;
+      }
+    })
+    .catch(error => {
+      console.error('Error fetching events:', error);
+      document.getElementById('event-details').innerHTML = `<p>Error loading event details.</p>`;
+    });
+
+  function showSlide(index) {
+    const slides = document.querySelector('.slides');
+    const totalSlides = slides.children.length;
+    currentIndex = (index + totalSlides) % totalSlides;
+    slides.style.transform = `translateX(${-currentIndex * 100}%)`;
+  }
+
+  function nextSlide() {
+    showSlide(currentIndex + 1);
+  }
+
+  function prevSlide() {
+    showSlide(currentIndex - 1);
+  }
+
+
+  document.onkeydown = function (e) {
+    // Disable F12
+    if (e.keyCode === 123) return false;
+  
+    // Disable Ctrl+Shift+I
+    if (e.ctrlKey && e.shiftKey && e.keyCode === 73) return false;
+  
+    // Disable Ctrl+Shift+C
+    if (e.ctrlKey && e.shiftKey && e.keyCode === 67) return false;
+  
+    // Disable Ctrl+Shift+J
+    if (e.ctrlKey && e.shiftKey && e.keyCode === 74) return false;
+  
+    // Disable Ctrl+U (View Source)
+    if (e.ctrlKey && e.keyCode === 85) return false;
+  };
+  
+  // Disable right-click menu
+  document.addEventListener("contextmenu", (e) => e.preventDefault());
+  
+  // Disable drag events (images, text, etc.)
+  document.addEventListener("dragstart", (e) => e.preventDefault());
+  
+  // Disable PrintScreen
+  document.addEventListener('keyup', (e) => {
+    if (e.key === 'PrintScreen') navigator.clipboard.writeText('');
   });
-
-// Function to display the slide at a specific index
-function showSlide(index) {
-  const slides = document.querySelector('.slides'); // Select the slides container
-  const totalSlides = slides.children.length; // Get the total number of slides
-  currentIndex = (index + totalSlides) % totalSlides; // Update currentIndex within valid range
-  slides.style.transform = `translateX(${-currentIndex * 100}%)`; // Move to the current slide
-}
-
-// Function to show the next slide
-function nextSlide() {
-  showSlide(currentIndex + 1); // Increment slide index by 1
-}
-
-// Function to show the previous slide
-function prevSlide() {
-  showSlide(currentIndex - 1); // Decrement slide index by 1
-}
-
-// Disable developer tools and certain browser shortcuts
-document.onkeydown = function (e) {
-  if (
-    e.keyCode === 123 || // Disable F12 (Developer Tools)
-    (e.ctrlKey && e.shiftKey && [73, 67, 74].includes(e.keyCode)) || // Disable Ctrl+Shift+I, Ctrl+Shift+C, Ctrl+Shift+J
-    (e.ctrlKey && e.keyCode === 85) // Disable Ctrl+U (View Source)
-  ) {
-    return false; // Prevent default action
-  }
-};
-
-// Disable right-click, drag events, PrintScreen, and Ctrl+P
-document.addEventListener("contextmenu", (e) => e.preventDefault()); // Disable right-click menu
-document.addEventListener("dragstart", (e) => e.preventDefault()); // Disable drag events
-
-// Disable PrintScreen by clearing clipboard on PrintScreen key press
-document.addEventListener('keyup', (e) => {
-  if (e.key === 'PrintScreen') navigator.clipboard.writeText(''); // Clear clipboard
-});
-
-// Disable printing with Ctrl+P
-document.addEventListener('keydown', (e) => {
-  if (e.ctrlKey && e.key === 'p') { // Disable Ctrl+P
-    e.preventDefault(); // Prevent print dialog
-    e.stopImmediatePropagation(); // Stop further propagation
-  }
-});
+  
+  // Disable printing with Ctrl+P
+  document.addEventListener('keydown', (e) => {
+    if (e.ctrlKey && e.key === 'p') {
+      e.preventDefault();
+      e.stopImmediatePropagation();
+    }
+  });
+  
