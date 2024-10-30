@@ -36,7 +36,3 @@
     "detailsUrl": "eventsinfo.html?id=6"
   }
 ]
-{
-  "description": "This JSON array contains a list of events, each represented as an object with unique identifiers and relevant information. Each event object includes an 'id' for easy reference, an 'image' that visually represents the event, an 'alt' attribute for accessibility purposes, and a 'detailsUrl' that links to a detailed page for more information about the event. The array consists of six events, showcasing a variety of occasions through their corresponding images and providing users with quick access to detailed descriptions."
-}
-
