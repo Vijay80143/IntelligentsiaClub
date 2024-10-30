@@ -179,3 +179,18 @@ function displayMessage(message, type) {
     chatboxMessages.appendChild(messageDiv); // Append to chatbox
     chatboxMessages.scrollTop = chatboxMessages.scrollHeight; // Scroll to bottom
 }
+
+
+// 1. FAQ Toggling
+// Desktop: Shows a limited number of questions at a time with next/prev buttons.
+// Mobile: Displays one question at a time, also with next/prev buttons.
+// 2. Carousel Initialization and Autoplay
+// Uses Flipster to create a looping carousel, advancing every 2 seconds.
+// Stops autoplay if the user clicks on the carousel.
+// 3. Dynamic Navbar Loading
+// Loads the footer.html content into the navbar container and reattaches a toggleMenu function for toggling mobile navigation.
+// 4. Restricting Developer Tools and Actions
+// Disables key combinations and actions (F12, Ctrl+Shift+I/C/J/U, right-click, dragging, PrintScreen, and printing with Ctrl+P) to limit viewing or copying the page's source.
+// 5. Chatbot with JSON-based Responses
+// Loads possible responses from a JSON file and toggles the chatbox display when the chat icon is clicked.
+// Matches user input with keywords to find and return responses; defaults to a message if no match is found.
