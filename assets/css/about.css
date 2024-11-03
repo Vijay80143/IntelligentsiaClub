@@ -130,9 +130,9 @@ p {
     transition: transform 0.4s ease-in-out; /* Adjusted transition time for smoothness */
 }
 
-.card-image:hover {
-    transform: translateX(-50%) scale(1.3); /* Keep centered with scaling */
-}
+/* .card-image:hover {
+    transform: translateX(-50%) scale(1.3); 
+} */
 
 
 .card-title {

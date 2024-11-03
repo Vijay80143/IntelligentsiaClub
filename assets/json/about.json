@@ -16,17 +16,24 @@
       },
       {
         "name": "T Vishnu",
-        "role": "Director Of Community",
+        "role": "Vice President",
         "imgSrc": "assets/images/team/vishnu.jpeg",
         "linkedIn": "https://www.linkedin.com/in/vishnu-vardhan-tulabandula-b0b47a285/",
         "instagram": "https://www.instagram.com/lone_warrior_varma/"
       },
       {
+        "name": "V Venkat",
+        "role": "Director Of Designing",
+        "imgSrc": "assets/images/team/venkat.jpg",
+        "linkedIn": "https://www.linkedin.com/in/vuddagiri-naga-venkat-769aa5257/",
+        "instagram": "https://www.instagram.com/venkat.vuddagiri_/"
+      },
+      {
         "name": "M Surya",
-        "role": "Director Of Designing and Planning",
+        "role": "Director Of Planning",
         "imgSrc": "assets/images/team/surya.jpg",
         "linkedIn": "https://www.linkedin.com/in/s-l-srinivas-mudragada-462a0b28a/",
-        "instagram": "https://www.instagram.com/_srinivas__mudragada/"
+        "instagram": "https://www.instagram.com/surya_m__26?igsh=MWd1N2ltNWlncGdycg=="
       },
       {
         "name": "N Vijay",
@@ -64,13 +71,6 @@
         "instagram": "https://www.instagram.com/shaik._.thajuddin/"
       },
       {
-        "name": "V Venkat",
-        "role": "Project Management Chair",
-        "imgSrc": "assets/images/team/venkat.jpg",
-        "linkedIn": "https://www.linkedin.com/in/vuddagiri-naga-venkat-769aa5257/",
-        "instagram": "https://www.instagram.com/venkat.vuddagiri_/"
-      },
-      {
         "name": "M Teja",
         "role": "Research Chair",
         "imgSrc": "assets/images/team/teja.jpeg",
@@ -78,18 +78,46 @@
         "instagram": "https://www.instagram.com/teja_chowdary03/"
       },
       {
+        "name": "P Prudhvi",
+        "role": "Project Management Chair",
+        "imgSrc": "assets/images/team/prudhvi.jpg",
+        "linkedIn": "#",
+        "instagram": "https://www.instagram.com/ajaysatya_1713/profilecard/?igsh=MWJjMjI5M2g3M3l1dA=="
+      },
+      {
+        "name": "V Ajay",
+        "role": "Project Management Chair",
+        "imgSrc": "assets/images/team/ajay.jpg",
+        "linkedIn": "#",
+        "instagram": "https://www.instagram.com/ajaysatya_1713/profilecard/?igsh=MWJjMjI5M2g3M3l1dA=="
+      },
+      {
+        "name": "T Mahi",
+        "role": "Professional Development Chair",
+        "imgSrc": "assets/images/team/mahi.png",
+        "linkedIn": "https://www.linkedin.com/in/venkata-mahipathi-rao-topella-7327771b3/",
+        "instagram": "https://www.instagram.com/mahithopella/"
+      },
+      {
+        "name": "V Basaweswar",
+        "role": "Professional Development Chair",
+        "imgSrc": "assets/images/team/basava.jpg",
+        "linkedIn": "#",
+        "instagram": "https://www.instagram.com/tinku_vejandla/"
+      },
+      {
+        "name": "Ch Adithya",
+        "role": "Marketing Chair",
+        "imgSrc": "assets/images/team/adithya.jpg",
+        "linkedIn": "https://www.linkedin.com/in/adithya-vardhan-16ba92281/",
+        "instagram": "https://www.instagram.com/adithya._3/"
+      },
+      {
         "name": "M Sai Chand",
         "role": "Marketing Chair",
         "imgSrc": "assets/images/team/sai_chand.jpg",
         "linkedIn": "https://www.linkedin.com/in/v-s-sai-chand-mavireddy-8b7b8728a/",
         "instagram": "https://www.instagram.com/m_sai_chand/"
-      },
-      {
-        "name": "T Mahi",
-        "role": "External Designer",
-        "imgSrc": "assets/images/team/mahi.png",
-        "linkedIn": "https://www.linkedin.com/in/venkata-mahipathi-rao-topella-7327771b3/",
-        "instagram": "https://www.instagram.com/mahithopella/"
       }
     ]
   }
