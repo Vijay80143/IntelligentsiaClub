@@ -24,5 +24,18 @@
         </video>
     </div>
     <script src="assets/js/index.js"></script> <!-- Link to external JS -->
+    <script>
+        // Add this to assets/js/index.js
+
+// Get the video element
+const introVideo = document.getElementById("introVideo");
+
+// Unmute and play the video after a user interaction (e.g., any key press)
+document.addEventListener("keydown", function() {
+    introVideo.muted = false; // Unmute the video
+    introVideo.play(); // Play the video if it was paused due to autoplay restrictions
+});
+
+    </script>
 </body>
 </html>
