@@ -22,6 +22,13 @@
         "instagram": "https://www.instagram.com/lone_warrior_varma/"
       },
       {
+        "name": "A Aravind",
+        "role": "Co-Founder",
+        "imgSrc": "assets/images/team/aravind.jpg",
+        "linkedIn": "https://www.linkedin.com/in/anubothu-aravind/",
+        "instagram": "https://www.instagram.com/i.arvn/"
+      },
+      {
         "name": "V Venkat",
         "role": "Director Of Designing",
         "imgSrc": "assets/images/team/venkat.jpg",
@@ -48,13 +55,6 @@
         "imgSrc": "assets/images/team/teja.jpeg",
         "linkedIn": "https://www.linkedin.com/in/teja-vsai-/",
         "instagram": "https://www.instagram.com/teja_chowdary03/" 
-      },
-      {
-        "name": "A Aravind",
-        "role": "Co-Founder & Technical Chair",
-        "imgSrc": "assets/images/team/aravind.jpg",
-        "linkedIn": "https://www.linkedin.com/in/anubothu-aravind/",
-        "instagram": "https://www.instagram.com/i.arvn/"
       },
       {
         "name": "T Deekshitha",
