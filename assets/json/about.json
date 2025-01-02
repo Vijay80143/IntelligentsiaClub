@@ -8,6 +8,13 @@
         "instagram": "https://www.instagram.com/__mr.vsn_/"
       },
       {
+        "name": "A Aravind",
+        "role": "Co-Founder",
+        "imgSrc": "assets/images/team/aravind.jpg",
+        "linkedIn": "https://www.linkedin.com/in/anubothu-aravind/",
+        "instagram": "https://www.instagram.com/i.arvn/"
+      },
+      {
         "name": "V Hari Sankar",
         "role": "Director Of Technology",
         "imgSrc": "assets/images/team/hari.jpeg",
@@ -20,28 +27,7 @@
         "imgSrc": "assets/images/team/vishnu.jpeg",
         "linkedIn": "https://www.linkedin.com/in/vishnu-vardhan-tulabandula-b0b47a285/",
         "instagram": "https://www.instagram.com/lone_warrior_varma/"
-      },
-      {
-        "name": "A Aravind",
-        "role": "Co-Founder",
-        "imgSrc": "assets/images/team/aravind.jpg",
-        "linkedIn": "https://www.linkedin.com/in/anubothu-aravind/",
-        "instagram": "https://www.instagram.com/i.arvn/"
-      },
-      {
-        "name": "V Venkat",
-        "role": "Director Of Designing",
-        "imgSrc": "assets/images/team/venkat.jpg",
-        "linkedIn": "https://www.linkedin.com/in/vuddagiri-naga-venkat-769aa5257/",
-        "instagram": "https://www.instagram.com/venkat.vuddagiri_/"
-      },
-      {
-        "name": "M Surya",
-        "role": "Director Of Planning",
-        "imgSrc": "assets/images/team/surya.jpg",
-        "linkedIn": "https://www.linkedin.com/in/s-l-srinivas-mudragada-462a0b28a/",
-        "instagram": "https://www.instagram.com/surya_m__26"
-      },
+      },     
       {
         "name": "N Vijay",
         "role": "Co-Founder & Director Of Internal Relations",
@@ -55,6 +41,20 @@
         "imgSrc": "assets/images/team/teja.jpeg",
         "linkedIn": "https://www.linkedin.com/in/teja-vsai-/",
         "instagram": "https://www.instagram.com/teja_chowdary03/" 
+      },
+        {
+        "name": "V Venkat",
+        "role": "Director Of Designing",
+        "imgSrc": "assets/images/team/venkat.jpg",
+        "linkedIn": "https://www.linkedin.com/in/vuddagiri-naga-venkat-769aa5257/",
+        "instagram": "https://www.instagram.com/venkat.vuddagiri_/"
+      },
+      {
+        "name": "M Surya",
+        "role": "Director Of Planning",
+        "imgSrc": "assets/images/team/surya.jpg",
+        "linkedIn": "https://www.linkedin.com/in/s-l-srinivas-mudragada-462a0b28a/",
+        "instagram": "https://www.instagram.com/surya_m__26"
       },
       {
         "name": "T Deekshitha",
@@ -121,6 +121,3 @@
       }
     ]
   }
-
-
-  
